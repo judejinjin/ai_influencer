@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "The Shocking Truth About Your Bread",
+    "title_es": "La Impactante Verdad Sobre Tu Pan",
+    "pillar": "regulation",
+    "hook_en": "Did you know your bread could be toxic?",
+    "hook_es": "¿Sabías que tu pan podría ser tóxico?",
+    "key_message": "Potassium bromate, a legal additive in the US, is banned in many countries due to its potential carcinogenic effects.",
+    "visual_elements": [
+      "close-up of bread",
+      "list of countries where banned",
+      "highlighted text of 'possible carcinogen'",
+      "split-screen: fresh bread vs. ingredients list"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "loaf of bread",
+      "ingredient list printout"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Potassium Bromate: Bread, flour, baked goods — Banned in: EU, UK, Canada, Brazil, China — Health concern: Classified as possibly carcinogenic (Group 2B) by IARC\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Obesity's Rise: A Regulatory Failure?",
+    "title_es": "¿El Aumento de la Obesidad: Un Fracaso Regulatorio?",
+    "pillar": "regulation",
+    "hook_en": "Why are more Americans obese today than ever?",
+    "hook_es": "¿Por qué más estadounidenses son obesos hoy que nunca?",
+    "key_message": "Lack of strict food regulations in the US contributes to the rising obesity rates.",
+    "visual_elements": [
+      "timeline graph of obesity rates",
+      "side-by-side: healthy vs. processed food",
+      "highlighted US regulation documents",
+      "animated arrow showing increasing trend"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "printed graph of obesity rates",
+      "sample processed food package"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Potassium Bromate: Bread, flour, baked goods — Banned in: EU, UK, Canada, Brazil, China — Health concern: Classified as possibly carcinogenic (Group 2B) by IARC\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

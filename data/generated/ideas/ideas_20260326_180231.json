@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "Cinnamon Secret: Are You Using the Right Kind?",
+    "title_es": "¿El Secreto de la Canela: Estás Usando el Tipo Correcto?",
+    "pillar": "deep-dive",
+    "hook_en": "What's the cinnamon secret? Let me show you!",
+    "hook_es": "¿Cuál es el secreto de la canela? ¡Déjame mostrarte!",
+    "key_message": "Use Ceylon cinnamon over Cassia to avoid liver-harming coumarin.",
+    "visual_elements": [
+      "close-up of two cinnamon jars labeled Ceylon and Cassia",
+      "comparison chart showing coumarin levels",
+      "sprinkling cinnamon on oatmeal"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "two jars of cinnamon (Ceylon and Cassia)",
+      "oatmeal",
+      "comparison chart"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Cinnamon (Ceylon) — Can help regulate blood sugar levels and improve insulin sensitivity (Tip: Use Ceylon cinnamon (not Cassia) — Cassia contains coumarin which can harm the liver in large doses)"
+  },
+  {
+    "title_en": "Cinnamon Magic: Control Your Blood Sugar!",
+    "title_es": "¡La Magia de la Canela: Controla Tu Azúcar en Sangre!",
+    "pillar": "deep-dive",
+    "hook_en": "Want to control your blood sugar naturally? Spice it up!",
+    "hook_es": "¿Quieres controlar tu azúcar de forma natural? ¡Añade un poco de canela!",
+    "key_message": "Ceylon cinnamon helps regulate blood sugar and improves insulin sensitivity.",
+    "visual_elements": [
+      "sprinkle cinnamon on a smoothie",
+      "graphics of blood sugar levels dropping",
+      "animated insulin receptor and glucose entering cell"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "jar of Ceylon cinnamon",
+      "smoothie",
+      "animated graphics"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• INGREDIENT: Cinnamon (Ceylon) — Can help regulate blood sugar levels and improve insulin sensitivity (Tip: Use Ceylon cinnamon (not Cassia) — Cassia contains coumarin which can harm the liver in large doses)"
+  }
+]

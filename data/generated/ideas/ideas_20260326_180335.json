@@ -1,0 +1,42 @@
+[
+  {
+    "title_en": "The Bread Ingredient Banned in Yoga Mats!",
+    "title_es": "El Ingrediente del Pan Prohibido en Tapetes de Yoga!",
+    "pillar": "regulation",
+    "hook_en": "Did you know your bread shares an ingredient with yoga mats?",
+    "hook_es": "¿Sabías que tu pan comparte un ingrediente con tapetes de yoga?",
+    "key_message": "Azodicarbonamide, used in bread and yoga mats, is banned in the EU due to health risks.",
+    "visual_elements": [
+      "split_screen_with_bread_on_one_side_and_yoga_mat_on_the_other",
+      "closeup_of_bread_package_ingredients",
+      "animated_map_showing_countries_where_it's_banned",
+      "graphic_showing_health_risks"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "loaf_of_bread",
+      "yoga_mat"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Azodicarbonamide: Bread (as dough conditioner) — also used in yoga mats/shoe soles — Banned in: EU, Australia, Singapore — Health concern: Breaks down into semicarbazide (possible carcinogen) during baking\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "The Shocking Rise of Obesity in America",
+    "title_es": "El Impactante Aumento de la Obesidad en América",
+    "pillar": "regulation",
+    "hook_en": "Why is obesity skyrocketing in the US?",
+    "hook_es": "¿Por qué la obesidad está aumentando en los EE.UU.?",
+    "key_message": "Regulatory changes and permissive policies have contributed to the increase in obesity and unhealthy food consumption.",
+    "visual_elements": [
+      "timeline_graph_showing_increase_in_obesity_rates",
+      "clips_of_people_eating_various_fast_foods_vs_home-cooked_meals",
+      "graphic_comparing_us_food_regulations_with_other_countries"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "graphs_or_charts_displayed_on_a_tablet_or_laptop"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Azodicarbonamide: Bread (as dough conditioner) — also used in yoga mats/shoe soles — Banned in: EU, Australia, Singapore — Health concern: Breaks down into semicarbazide (possible carcinogen) during baking\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

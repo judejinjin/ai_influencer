@@ -1,0 +1,48 @@
+[
+  {
+    "title_en": "Butter vs. Margarine: The Truth Unwrapped!",
+    "title_es": "Mantequilla vs. Margarina: ¡La Verdad Desenvuelta!",
+    "pillar": "comparison",
+    "hook_en": "Real butter or margarine — which is the better choice for your health?",
+    "hook_es": "¿Mantequilla real o margarina — cuál es la mejor opción para tu salud?",
+    "key_message": "Real butter is a more natural choice compared to margarine, which contains industrial emulsifiers and artificial flavors.",
+    "visual_elements": [
+      "Side-by-side comparison of butter and margarine",
+      "Close-up of butter ingredient label (cream, salt)",
+      "Close-up of margarine label (long list of ingredients)",
+      "Visual of margarine being spread, showing texture difference"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "real butter",
+      "margarine",
+      "two plates",
+      "knife"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• HEALTHY: Real butter (cream, salt) vs. PROCESSED: Margarine (vegetable oils, emulsifiers, artificial flavors) — Margarine was originally created as a cheap substitute and contains industrial emulsifiers"
+  },
+  {
+    "title_en": "The Battle of the Spreads: Butter vs. Margarine",
+    "title_es": "La Batalla de las Untables: Mantequilla vs. Margarina",
+    "pillar": "comparison",
+    "hook_en": "Let’s break down the ingredients in your favorite spreads!",
+    "hook_es": "¡Vamos a descomponer los ingredientes de tus untables favoritos!",
+    "key_message": "Margarine, a processed alternative, was created as a cheap substitute, containing emulsifiers not found in natural butter.",
+    "visual_elements": [
+      "Table with butter and margarine on it",
+      "Zoom in on each ingredient list",
+      "Quick animation showing 'wholesome' vs. 'industrial'",
+      "Expressive reaction to margarine’s ingredient list"
+    ],
+    "duration_seconds": 60,
+    "props_needed": [
+      "real butter",
+      "margarine",
+      "cutting board",
+      "camera for close-ups"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Real butter (cream, salt) vs. PROCESSED: Margarine (vegetable oils, emulsifiers, artificial flavors) — Margarine was originally created as a cheap substitute and contains industrial emulsifiers"
+  }
+]

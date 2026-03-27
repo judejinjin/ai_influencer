@@ -1,0 +1,45 @@
+[
+  {
+    "title_en": "Blueberries: A Superfood You Need!",
+    "title_es": "¡Arándanos: Un Superalimento Imprescindible!",
+    "pillar": "deep-dive",
+    "hook_en": "Why are blueberries a superfood? Let me show you!",
+    "hook_es": "¿Por qué son los arándanos un superalimento? ¡Déjame mostrarte!",
+    "key_message": "Blueberries have the highest antioxidant content among common fruits. Learn how to select and use them!",
+    "visual_elements": [
+      "Close-up shot of fresh and frozen blueberries in bowls",
+      "Comparison of ORAC scores of various fruits on screen",
+      "Quick prep tips for using blueberries in smoothies and salads"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh blueberries",
+      "frozen blueberries",
+      "small bowls"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Blueberries — Among the highest antioxidant content of any common fruit (ORAC score) (Tip: Frozen blueberries retain nearly all nutrients and are cheaper year-round)"
+  },
+  {
+    "title_en": "Get the Most Out of Blueberries!",
+    "title_es": "¡Aprovecha al Máximo los Arándanos!",
+    "pillar": "deep-dive",
+    "hook_en": "Frozen or fresh? Which blueberry is best? Let's find out!",
+    "hook_es": "¿Congelados o frescos? ¿Cuál es mejor? ¡Vamos a descubrirlo!",
+    "key_message": "Frozen blueberries retain nearly all nutrients and are a cost-effective option year-round.",
+    "visual_elements": [
+      "Side-by-side of fresh vs. frozen blueberries",
+      "Highlight on cost comparison (text overlay)",
+      "Demonstration of using frozen blueberries in a recipe"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh blueberries",
+      "frozen blueberries",
+      "measuring cup",
+      "mixing bowl"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Blueberries — Among the highest antioxidant content of any common fruit (ORAC score) (Tip: Frozen blueberries retain nearly all nutrients and are cheaper year-round)"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "title_en": "Battle of the Broths: Homemade vs. Bouillon Cubes",
+    "title_es": "Batalla de los Caldos: Casero vs. Cubitos de Caldo",
+    "pillar": "comparison",
+    "hook_en": "Which broth is better for your health? Let's find out!",
+    "hook_es": "¿Cuál caldo es mejor para tu salud? ¡Descubramos!",
+    "key_message": "Homemade chicken broth is a healthier choice with less sodium and no artificial additives compared to bouillon cubes.",
+    "visual_elements": [
+      "Side-by-side comparison of homemade broth vs. bouillon cube packaging",
+      "Close-up of pouring homemade broth into a bowl",
+      "Close-up of dissolving a bouillon cube in hot water",
+      "Overlay text: Sodium content: Homemade 40mg vs. Bouillon cube 900mg"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "homemade chicken broth",
+      "bouillon cubes",
+      "clear bowls",
+      "measuring spoon"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Homemade chicken broth (chicken, vegetables, herbs) vs. PROCESSED: Bouillon cubes (MSG, sodium, artificial flavors) — A single bouillon cube can contain 900mg sodium — nearly half daily limit"
+  },
+  {
+    "title_en": "MSG vs. Fresh Herbs: What's in Your Broth?",
+    "title_es": "MSG vs. Hierbas Frescas: ¿Qué Hay en Tu Caldo?",
+    "pillar": "comparison",
+    "hook_en": "MSG or fresh herbs? What's hiding in your broth?",
+    "hook_es": "¿MSG o hierbas frescas? ¿Qué se esconde en tu caldo?",
+    "key_message": "Bouillon cubes contain MSG and artificial flavors, while homemade broth uses only fresh herbs and ingredients.",
+    "visual_elements": [
+      "Two separate bowls of broth: one with fresh herbs, one labeled with MSG",
+      "Overlay text: 'MSG and artificial flavors' pointing to bouillon cube broth",
+      "Clip of chopping fresh herbs for homemade broth",
+      "Zoom-in on ingredient list of bouillon cube packaging showing 'MSG'"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh herbs",
+      "bouillon cubes",
+      "clear bowls",
+      "knife",
+      "cutting board"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Homemade chicken broth (chicken, vegetables, herbs) vs. PROCESSED: Bouillon cubes (MSG, sodium, artificial flavors) — A single bouillon cube can contain 900mg sodium — nearly half daily limit"
+  }
+]

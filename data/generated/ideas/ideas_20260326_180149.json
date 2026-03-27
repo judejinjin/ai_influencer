@@ -1,0 +1,48 @@
+[
+  {
+    "title_en": "Cilantro: The Heavy Metal Detox Hero",
+    "title_es": "Cilantro: El Héroe Detox de Metales Pesados",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know this herb fights metal toxins?",
+    "hook_es": "¿Sabías que esta hierba combate toxinas metálicas?",
+    "key_message": "Cilantro helps detoxify heavy metals like mercury and lead. Add it raw to your dishes for maximum benefits.",
+    "visual_elements": [
+      "Close-up of fresh cilantro bunch",
+      "Demonstration of chopping cilantro",
+      "Adding cilantro to a finished dish",
+      "Text overlay: 'Detox with Cilantro!'"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "cilantro bunch",
+      "knife",
+      "cutting board",
+      "prepared dish"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Cilantro — Contains compounds that help the body detoxify heavy metals like mercury and lead (Tip: Add raw to finished dishes — heat destroys the beneficial volatile oils)"
+  },
+  {
+    "title_en": "Maximize Cilantro's Detox Power",
+    "title_es": "Maximiza el Poder Detox del Cilantro",
+    "pillar": "deep-dive",
+    "hook_en": "Boost your detox with this simple tip!",
+    "hook_es": "¡Mejora tu detox con este simple consejo!",
+    "key_message": "To preserve cilantro's detoxifying volatile oils, always add it raw to your finished dishes.",
+    "visual_elements": [
+      "Comparison: cooked vs. raw cilantro",
+      "Zoom-in on volatile oils dispersing",
+      "Sprinkling raw cilantro on plated food",
+      "Text overlay: 'Raw is best!'"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "cilantro",
+      "small pan (for cooked example)",
+      "cutting board",
+      "prepared dish"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Cilantro — Contains compounds that help the body detoxify heavy metals like mercury and lead (Tip: Add raw to finished dishes — heat destroys the beneficial volatile oils)"
+  }
+]

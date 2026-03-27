@@ -1,0 +1,45 @@
+[
+  {
+    "title_en": "Sourdough vs. Commercial Bread: What's in Your Sandwich?",
+    "title_es": "Sourdough vs. Pan Comercial: ¿Qué Hay en Tu Sándwich?",
+    "pillar": "comparison",
+    "hook_en": "Did you know your bread could contain yoga mat chemicals?",
+    "hook_es": "¿Sabías que tu pan podría tener químicos de yoga?",
+    "key_message": "Whole wheat sourdough bread is a simpler, healthier choice compared to commercial white bread, which contains questionable additives like azodicarbonamide.",
+    "visual_elements": [
+      "Side-by-side comparison of whole wheat sourdough and commercial white bread",
+      "Close-up of sourdough ingredients: flour, water, salt, starter",
+      "Zoom in on commercial bread ingredients list with azodicarbonamide highlighted",
+      "Quick clip of a yoga mat with azodicarbonamide text overlay"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Whole wheat sourdough bread",
+      "Commercial white bread",
+      "Yoga mat"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• HEALTHY: Whole wheat sourdough bread (flour, water, salt, starter) vs. PROCESSED: Commercial white bread (20+ ingredients including azodicarbonamide) — Azodicarbonamide — used in bread AND yoga mats — is banned in the EU"
+  },
+  {
+    "title_en": "Bread Battle: Simple Sourdough vs. Overloaded White",
+    "title_es": "Batalla de Pan: Sourdough Simple vs. Blanco Sobrecargado",
+    "pillar": "comparison",
+    "hook_en": "Which bread do you think is healthier?",
+    "hook_es": "¿Cuál pan crees que es más saludable?",
+    "key_message": "Whole wheat sourdough offers basic nutrition, while commercial white bread is packed with over 20 ingredients, including some banned in other countries.",
+    "visual_elements": [
+      "Visual of two loaves: sourdough vs. commercial white bread",
+      "Shot of a hand holding a sourdough slice with ingredient overlay",
+      "Hand holding a white bread slice with a long ingredient list overlay",
+      "Text overlay highlighting 'banned in EU' for azodicarbonamide"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Whole wheat sourdough bread",
+      "Commercial white bread"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Whole wheat sourdough bread (flour, water, salt, starter) vs. PROCESSED: Commercial white bread (20+ ingredients including azodicarbonamide) — Azodicarbonamide — used in bread AND yoga mats — is banned in the EU"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Egg-cellent Nutrition: How to Cook the Perfect Egg",
+    "title_es": "Nutrición de Huevos: Cómo Cocinar el Huevo Perfecto",
+    "pillar": "deep-dive",
+    "hook_en": "You won't believe how easy it is to get perfect eggs!",
+    "hook_es": "¡No creerás lo fácil que es hacer huevos perfectos!",
+    "key_message": "Eggs are nutrient powerhouses — cook them right to keep all the goodness.",
+    "visual_elements": [
+      "close-up of a raw egg in a bowl",
+      "comparison of runny vs. overcooked yolks",
+      "quick montage of different cooking methods with a runny yolk",
+      "final shot of a beautifully cooked egg"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh eggs",
+      "bowl",
+      "frying pan",
+      "spatula"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Eggs — One of the most nutrient-dense foods — contain all 9 essential amino acids (Tip: Keep the yolk runny when possible — high heat oxidizes the cholesterol)"
+  },
+  {
+    "title_en": "Sunny Side Up: Maximize Egg Nutrition",
+    "title_es": "Huevos Soleados: Maximiza la Nutrición del Huevo",
+    "pillar": "deep-dive",
+    "hook_en": "Want all 9 essential amino acids? Cook your eggs like this!",
+    "hook_es": "¿Quieres los 9 aminoácidos esenciales? ¡Cocina tus huevos así!",
+    "key_message": "Keep egg yolks runny to preserve nutrients and enjoy all 9 essential amino acids.",
+    "visual_elements": [
+      "sequence of cracking an egg on a pan with a sunny-side-up technique",
+      "zoom in on the runny yolk",
+      "pop-up text listing 9 essential amino acids",
+      "enjoying a perfectly cooked sunny-side-up egg"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "eggs",
+      "non-stick pan",
+      "spatula"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Eggs — One of the most nutrient-dense foods — contain all 9 essential amino acids (Tip: Keep the yolk runny when possible — high heat oxidizes the cholesterol)"
+  }
+]

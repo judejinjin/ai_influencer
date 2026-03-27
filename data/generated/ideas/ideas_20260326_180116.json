@@ -1,0 +1,50 @@
+[
+  {
+    "title_en": "Unlock the Power of Sweet Potatoes!",
+    "title_es": "¡Desbloquea el Poder de las Batatas!",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know sweet potatoes are a superfood?",
+    "hook_es": "¿Sabías que las batatas son superalimentos?",
+    "key_message": "Sweet potatoes are rich in beta-carotene, fiber, and potassium. Eat them with a splash of olive oil to boost nutrient absorption.",
+    "visual_elements": [
+      "close-up of a raw sweet potato",
+      "cutting sweet potato into slices",
+      "drizzling olive oil over roasted sweet potato",
+      "colorful graphics highlighting beta-carotene benefit"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "sweet potato",
+      "olive oil",
+      "knife",
+      "cutting board",
+      "oven"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Sweet Potato — Rich in beta-carotene, fiber, and potassium — a true superfood (Tip: Eat with a small amount of fat (olive oil) to boost beta-carotene absorption by 6x)"
+  },
+  {
+    "title_en": "Supercharge Your Sweet Potato!",
+    "title_es": "¡Supercarga Tu Batata!",
+    "pillar": "deep-dive",
+    "hook_en": "Want to get the most out of your sweet potatoes?",
+    "hook_es": "¿Quieres aprovechar al máximo tus batatas?",
+    "key_message": "Combining sweet potatoes with a small amount of fat, like olive oil, can increase beta-carotene absorption by six times.",
+    "visual_elements": [
+      "showing sweet potatoes in a basket",
+      "pouring olive oil into a small dish",
+      "adding olive oil to mashed sweet potatoes",
+      "infographic showing 6x absorption increase"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "sweet potatoes",
+      "olive oil",
+      "small dish",
+      "fork",
+      "bowl"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Sweet Potato — Rich in beta-carotene, fiber, and potassium — a true superfood (Tip: Eat with a small amount of fat (olive oil) to boost beta-carotene absorption by 6x)"
+  }
+]

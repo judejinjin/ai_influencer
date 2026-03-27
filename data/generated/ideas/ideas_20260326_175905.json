@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "Fresh vs. Fake OJ: The Truth!",
+    "title_es": "Jugo de Naranja: ¡Fresco vs. Falso!",
+    "pillar": "comparison",
+    "hook_en": "Watch me squeeze real oranges vs. pour from a carton!",
+    "hook_es": "¡Mírame exprimir naranjas reales vs. verter de un cartón!",
+    "key_message": "Discover the difference: Real OJ is pure, while many commercial OJs are flavored and stored for months.",
+    "visual_elements": [
+      "split_screen_comparing_fresh_squeezing",
+      "pouring_carton_oj",
+      "close_up_of_flavor_pack_ingredients"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh_oranges",
+      "commercial_oj_carton",
+      "juicer"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Fresh-squeezed orange juice vs. PROCESSED: Commercial OJ from concentrate with added flavors — Commercial OJ sits in tanks for up to a year — flavor packs are added back"
+  },
+  {
+    "title_en": "Hidden Secrets of Store-Bought OJ",
+    "title_es": "Secretos Ocultos del Jugo de Naranja Comercial",
+    "pillar": "comparison",
+    "hook_en": "Can you guess what's in your OJ?",
+    "hook_es": "¿Puedes adivinar qué hay en tu jugo de naranja?",
+    "key_message": "Commercial OJ often hides behind flavor packs to taste fresh, but has been stored for long periods.",
+    "visual_elements": [
+      "mystery_box_reveal",
+      "animation_of_flavor_packaging",
+      "comparison_of_ingredient_lists"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "mystery_box",
+      "commercial_oj_carton",
+      "animation_tools"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Fresh-squeezed orange juice vs. PROCESSED: Commercial OJ from concentrate with added flavors — Commercial OJ sits in tanks for up to a year — flavor packs are added back"
+  }
+]

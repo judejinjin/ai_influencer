@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Unlock Olive Oil's Secret Power!",
+    "title_es": "¡Descubre el Poder Secreto del Aceite de Oliva!",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know olive oil is nature's ibuprofen?",
+    "hook_es": "¿Sabías que el aceite de oliva es el ibuprofeno natural?",
+    "key_message": "Extra Virgin Olive Oil contains oleocanthal, a natural anti-inflammatory similar to ibuprofen. Use it as a finishing oil to preserve its benefits.",
+    "visual_elements": [
+      "Close-up of olive oil bottle",
+      "Pouring olive oil on salad as dressing",
+      "Graphic of ibuprofen vs. oleocanthal",
+      "Text overlay: 'Nature's Ibuprofen!'"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "bottle of extra virgin olive oil",
+      "salad bowl",
+      "small spoon"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Olive Oil (Extra Virgin) — Contains oleocanthal — a natural anti-inflammatory with effects similar to ibuprofen (Tip: Use for finishing/dressings — high heat degrades beneficial polyphenols)"
+  },
+  {
+    "title_en": "Olive Oil: Maximize Its Benefits",
+    "title_es": "Aceite de Oliva: Maximiza Sus Beneficios",
+    "pillar": "deep-dive",
+    "hook_en": "Stop ruining your olive oil!",
+    "hook_es": "¡Deja de arruinar tu aceite de oliva!",
+    "key_message": "High heat can degrade olive oil's beneficial polyphenols. Use it for cold dishes or as a finishing touch.",
+    "visual_elements": [
+      "Pan on stove with olive oil and high heat warning",
+      "Switch to pouring over a finished dish",
+      "Side-by-side: cooking vs. finishing",
+      "Text overlay: 'Keep it cool!'"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "bottle of extra virgin olive oil",
+      "stove",
+      "pan",
+      "plate of food"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Olive Oil (Extra Virgin) — Contains oleocanthal — a natural anti-inflammatory with effects similar to ibuprofen (Tip: Use for finishing/dressings — high heat degrades beneficial polyphenols)"
+  }
+]

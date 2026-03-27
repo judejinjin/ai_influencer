@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Salmon Secrets: Maximize Omega-3s",
+    "title_es": "Secretos del Salmón: Maximiza los Omega-3",
+    "pillar": "deep-dive",
+    "hook_en": "Want juicy salmon with max omega-3s?",
+    "hook_es": "¿Quieres salmón jugoso con máximo omega-3?",
+    "key_message": "Cooking wild-caught salmon skin-side down first locks in omega-3 oils.",
+    "visual_elements": [
+      "Close-up of wild-caught salmon fillet on cutting board",
+      "Sizzling salmon on pan, skin-side down",
+      "Her smiling and pointing to the skin crisping up",
+      "Bite-sized salmon piece being lifted with a fork"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "wild-caught salmon fillet",
+      "non-stick pan",
+      "spatula",
+      "fork"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Salmon — Wild-caught salmon has 3x more omega-3s than farmed, with fewer contaminants (Tip: Cook skin-side down first — the skin locks in omega-3 oils)"
+  },
+  {
+    "title_en": "Farmed vs. Wild Salmon: Which is Healthier?",
+    "title_es": "Salmón de Granja vs. Salvaje: ¿Cuál es Más Saludable?",
+    "pillar": "deep-dive",
+    "hook_en": "Think all salmon is the same? Think again!",
+    "hook_es": "¿Crees que todo el salmón es igual? ¡Piensa de nuevo!",
+    "key_message": "Wild-caught salmon has 3x more omega-3s and fewer contaminants than farmed salmon.",
+    "visual_elements": [
+      "Side-by-side comparison of farmed and wild-caught salmon fillets",
+      "Zoom in on omega-3 content infographic",
+      "Overlay of contaminants warning on farmed salmon",
+      "Her showing thumbs up to the wild-caught salmon"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "farmed salmon fillet",
+      "wild-caught salmon fillet",
+      "infographic printout"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• INGREDIENT: Salmon — Wild-caught salmon has 3x more omega-3s than farmed, with fewer contaminants (Tip: Cook skin-side down first — the skin locks in omega-3 oils)"
+  }
+]

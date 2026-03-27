@@ -1,0 +1,43 @@
+[
+  {
+    "title_en": "The Secret Additive in Your Pork!",
+    "title_es": "¡El Aditivo Secreto en Tu Carne de Cerdo!",
+    "pillar": "regulation",
+    "hook_en": "Did you know? Your pork might contain a banned additive!",
+    "hook_es": "¿Sabías que? ¡Tu cerdo podría contener un aditivo prohibido!",
+    "key_message": "Ractopamine is used in US livestock but banned in 160+ countries due to health risks.",
+    "visual_elements": [
+      "Close-up of raw pork with a question mark overlay",
+      "Map highlighting countries where ractopamine is banned",
+      "Clip of heart monitor beeping with text on cardiovascular risks"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "raw pork piece",
+      "world map printout",
+      "heart monitor sound effect"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Ractopamine: Pork, beef, turkey (growth promoter in livestock) — Banned in: EU, China, Russia, 160+ countries — Health concern: Cardiovascular effects; residues in meat may affect heart rate\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Why Obesity Rates Keep Rising!",
+    "title_es": "¡Por Qué Siguen Aumentando las Tasas de Obesidad!",
+    "pillar": "regulation",
+    "hook_en": "Spot the trend with me—obesity rates are skyrocketing!",
+    "hook_es": "Observa la tendencia conmigo—¡las tasas de obesidad se disparan!",
+    "key_message": "US deregulation over the years has contributed significantly to the obesity epidemic.",
+    "visual_elements": [
+      "Graph animation showing rising obesity rates",
+      "Comparison of food labels over the decades",
+      "Overlay of fast-food imagery with text on deregulation"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "printed graphs of obesity rates",
+      "food packaging from various eras"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Ractopamine: Pork, beef, turkey (growth promoter in livestock) — Banned in: EU, China, Russia, 160+ countries — Health concern: Cardiovascular effects; residues in meat may affect heart rate\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

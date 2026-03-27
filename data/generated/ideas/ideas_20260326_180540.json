@@ -1,0 +1,41 @@
+[
+  {
+    "title_en": "Why Did It Take So Long to Ban Trans Fats?",
+    "title_es": "¿Por qué tomó tanto tiempo prohibir las grasas trans?",
+    "pillar": "regulation",
+    "hook_en": "Did you know trans fats were legal until 2015?",
+    "hook_es": "¿Sabías que las grasas trans fueron legales hasta 2015?",
+    "key_message": "The slow pace of the FDA in banning trans fats highlights systemic issues in US food safety regulations.",
+    "visual_elements": [
+      "split screen of healthy vs. processed food",
+      "timeline graphics showing obesity rates",
+      "clip of her shaking head in disbelief"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "two plates for comparison",
+      "timeline printout"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 2015: FDA removes trans fats (partially hydrogenated oils) from GRAS list — Impact: Took decades of evidence — shows how slow the US system is to act\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "US Food Additives: What's Allowed and Why?",
+    "title_es": "Aditivos en la comida de EE.UU.: ¿Qué se permite y por qué?",
+    "pillar": "regulation",
+    "hook_en": "What's in your food that Europe bans?",
+    "hook_es": "¿Qué hay en tu comida que Europa prohíbe?",
+    "key_message": "Many additives banned in Europe are still legal in US foods due to laxer regulations.",
+    "visual_elements": [
+      "list of banned additives in Europe",
+      "US vs. Europe comparison graphics",
+      "dramatic zoom on food ingredient labels"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "food packaging with visible ingredient labels"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 2015: FDA removes trans fats (partially hydrogenated oils) from GRAS list — Impact: Took decades of evidence — shows how slow the US system is to act\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

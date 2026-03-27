@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Unlock Ginger's Secret Power!",
+    "title_es": "¡Desbloquea el Poder Secreto del Jengibre!",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know fresh ginger can do this? 📈",
+    "hook_es": "¿Sabías que el jengibre fresco puede hacer esto? 📈",
+    "key_message": "Fresh ginger contains gingerol, which reduces nausea, inflammation, and muscle pain. Grating releases more gingerol.",
+    "visual_elements": [
+      "Close-up of fresh ginger being grated",
+      "Time-lapse of ginger tea being made",
+      "Overlay text with ginger benefits",
+      "Finished ginger tea with a steaming effect"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Fresh ginger root",
+      "Grater",
+      "Cup",
+      "Kettle/boiling water"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• INGREDIENT: Ginger — Contains gingerol — proven to reduce nausea, inflammation, and muscle pain (Tip: Fresh ginger is more potent than dried — grate it to release more gingerol)"
+  },
+  {
+    "title_en": "Ginger: Fresh vs. Dried Showdown",
+    "title_es": "Jengibre: Duelo Entre Fresco y Seco",
+    "pillar": "deep-dive",
+    "hook_en": "Fresh or dried ginger? Which packs a punch? 🥊",
+    "hook_es": "¿Jengibre fresco o seco? ¿Cuál es más potente? 🥊",
+    "key_message": "Fresh ginger is more potent than dried because it contains more gingerol, enhancing its health benefits.",
+    "visual_elements": [
+      "Side-by-side comparison of fresh and dried ginger",
+      "Text overlay of gingerol content",
+      "Visual of grating fresh ginger",
+      "Dried ginger being sprinkled into a dish"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Fresh ginger",
+      "Dried ginger",
+      "Grater"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Ginger — Contains gingerol — proven to reduce nausea, inflammation, and muscle pain (Tip: Fresh ginger is more potent than dried — grate it to release more gingerol)"
+  }
+]

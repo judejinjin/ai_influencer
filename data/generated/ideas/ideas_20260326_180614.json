@@ -1,0 +1,46 @@
+[
+  {
+    "title_en": "The Real Deal: Cream-Top Milk vs. Ultra-Processed Milk",
+    "title_es": "La Realidad: Leche de Crema vs. Leche Ultra-Procesada",
+    "pillar": "comparison",
+    "hook_en": "Watch this cream layer magic! 🥛✨",
+    "hook_es": "¡Mira la magia de la capa de crema! 🥛✨",
+    "key_message": "Cream-top milk retains its natural fat structure and higher omega-3 content, unlike ultra-pasteurized milk.",
+    "visual_elements": [
+      "shake cream-top bottle",
+      "show cream layer",
+      "pour both milks side-by-side",
+      "highlight omega-3 data"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "cream-top milk bottle",
+      "ultra-pasteurized milk carton",
+      "clear glasses"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Dairy]:\n• HEALTHY: Cream-top (non-homogenized) whole milk and yogurt from grass-fed cows\n• PROCESSED/CONVENTIONAL: Ultra-pasteurized homogenized milk and yogurt (fat globules broken up, shelf-stable)\n• KEY FACT: Homogenization breaks fat into tiny particles that may bypass digestion differently; cream-top milk preserves natural fat structure. Non-homogenized milk from grass-fed cows has higher omega-3 and CLA content\n• VISUAL IDEA: Shake a cream-top bottle to show the cream layer — 'this is what real milk looks like before the factory processes it'"
+  },
+  {
+    "title_en": "Yogurt Showdown: Grass-fed vs. Conventional",
+    "title_es": "Batalla de Yogures: Alimentado con Pasto vs. Convencional",
+    "pillar": "comparison",
+    "hook_en": "Can you spot the healthier yogurt? 🤔🥄",
+    "hook_es": "¿Puedes ver el yogur más saludable? 🤔🥄",
+    "key_message": "Yogurt from grass-fed cows is richer in omega-3s and retains natural fat structures compared to conventional ones.",
+    "visual_elements": [
+      "open yogurt containers",
+      "compare textures",
+      "highlight omega-3 content visually",
+      "dip spoon into each"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "grass-fed yogurt",
+      "conventional yogurt",
+      "spoons"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Dairy]:\n• HEALTHY: Cream-top (non-homogenized) whole milk and yogurt from grass-fed cows\n• PROCESSED/CONVENTIONAL: Ultra-pasteurized homogenized milk and yogurt (fat globules broken up, shelf-stable)\n• KEY FACT: Homogenization breaks fat into tiny particles that may bypass digestion differently; cream-top milk preserves natural fat structure. Non-homogenized milk from grass-fed cows has higher omega-3 and CLA content\n• VISUAL IDEA: Shake a cream-top bottle to show the cream layer — 'this is what real milk looks like before the factory processes it'"
+  }
+]

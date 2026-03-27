@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Peanut Butter: Raw vs. Processed",
+    "title_es": "Mantequilla de Maní: Natural vs. Procesada",
+    "pillar": "comparison",
+    "hook_en": "Which peanut butter do you think is healthier?",
+    "hook_es": "¿Cuál mantequilla de maní crees que es más saludable?",
+    "key_message": "Homemade peanut butter contains only peanuts and salt, while commercial versions often include unhealthy trans fats and added sugar.",
+    "visual_elements": [
+      "Side-by-side jars of homemade and commercial peanut butter",
+      "Close-up of ingredient labels",
+      "Spoonfuls of each peanut butter to show texture differences",
+      "Animated text highlighting 'No Trans Fats' vs. 'Contains Trans Fats'"
+    ],
+    "duration_seconds": 40,
+    "props_needed": [
+      "jars of peanut butter (homemade and commercial)",
+      "spoons",
+      "ingredient labels"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• HEALTHY: Homemade peanut butter (peanuts, salt) vs. PROCESSED: Commercial peanut butter (hydrogenated oils, sugar, mono-diglycerides) — Many commercial PBs contain hydrogenated oils (trans fats) and added sugar"
+  },
+  {
+    "title_en": "The Truth about Peanut Butter Ingredients!",
+    "title_es": "¡La Verdad sobre los Ingredientes de la Mantequilla de Maní!",
+    "pillar": "comparison",
+    "hook_en": "Can you guess what's hiding in your peanut butter?",
+    "hook_es": "¿Puedes adivinar qué se esconde en tu mantequilla de maní?",
+    "key_message": "Commercial peanut butter often contains unnecessary additives like hydrogenated oils and sugar, unlike the simple, nutritious homemade version.",
+    "visual_elements": [
+      "Quick pan over various peanut butter jars",
+      "Ingredients being added to a blender: peanuts, salt",
+      "Graphics showing 'Hydrogenated oils' with a red cross",
+      "Healthy vs. processed peanut butter on toast"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "blender",
+      "jars of peanut butter",
+      "toaster",
+      "bread"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Homemade peanut butter (peanuts, salt) vs. PROCESSED: Commercial peanut butter (hydrogenated oils, sugar, mono-diglycerides) — Many commercial PBs contain hydrogenated oils (trans fats) and added sugar"
+  }
+]

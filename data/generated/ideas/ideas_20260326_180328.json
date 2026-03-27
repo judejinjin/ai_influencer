@@ -1,0 +1,48 @@
+[
+  {
+    "title_en": "BHA: The Sneaky Additive in Your Snacks",
+    "title_es": "BHA: El Aditivo Oculto en Tus Snacks",
+    "pillar": "regulation",
+    "hook_en": "Can you guess what's in this snack?",
+    "hook_es": "¿Puedes adivinar qué hay en este snack?",
+    "key_message": "BHA, a common additive in the US, is banned in the EU for its links to cancer.",
+    "visual_elements": [
+      "close-up",
+      "of",
+      "snacks",
+      "ingredient",
+      "label",
+      "highlighting",
+      "BHA"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "popular snack food",
+      "ingredient label highlighter"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • BHA (Butylated Hydroxyanisole): Cereals, snack foods, chewing gum, butter — Banned in: EU (restricted), Japan — Health concern: Reasonably anticipated to be a human carcinogen (NTP)\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "The Obesity Epidemic: A Timeline of Regulation Failures",
+    "title_es": "La Epidemia de Obesidad: Una Cronología de Fracasos Regulatorios",
+    "pillar": "regulation",
+    "hook_en": "Watch how obesity rates exploded over decades!",
+    "hook_es": "¡Mira cómo explotaron las tasas de obesidad en décadas!",
+    "key_message": "Lax US food regulations have contributed to the rising obesity rates since 1960.",
+    "visual_elements": [
+      "timeline",
+      "graphics",
+      "highlighting",
+      "obesity",
+      "rate",
+      "increases"
+    ],
+    "duration_seconds": 60,
+    "props_needed": [
+      "timeline graphics"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • BHA (Butylated Hydroxyanisole): Cereals, snack foods, chewing gum, butter — Banned in: EU (restricted), Japan — Health concern: Reasonably anticipated to be a human carcinogen (NTP)\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

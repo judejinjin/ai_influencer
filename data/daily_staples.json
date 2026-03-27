@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bread",
+    "category": "Grains & Bakery",
+    "healthy_option": "Ezekiel bread (frozen organic sprouted, no preservatives — just sprouted grains, lentils, soybeans)",
+    "processed_option": "Commercial sliced bread (preservatives like calcium propionate, DATEM, soybean oil, added sugar)",
+    "key_fact": "Sprouted grain bread increases nutrient bioavailability by 30-50% and breaks down phytic acid, which blocks mineral absorption in regular bread",
+    "visual_idea": "Compare ingredient lists side by side — 6 ingredients vs. 30+. Show that Ezekiel bread lives in the freezer because it has zero preservatives"
+  },
+  {
+    "id": "milk_yogurt",
+    "category": "Dairy",
+    "healthy_option": "Cream-top (non-homogenized) whole milk and yogurt from grass-fed cows",
+    "processed_option": "Ultra-pasteurized homogenized milk and yogurt (fat globules broken up, shelf-stable)",
+    "key_fact": "Homogenization breaks fat into tiny particles that may bypass digestion differently; cream-top milk preserves natural fat structure. Non-homogenized milk from grass-fed cows has higher omega-3 and CLA content",
+    "visual_idea": "Shake a cream-top bottle to show the cream layer — 'this is what real milk looks like before the factory processes it'"
+  },
+  {
+    "id": "beef",
+    "category": "Protein",
+    "healthy_option": "100% grass-fed, grass-finished beef",
+    "processed_option": "Conventional grain-fed feedlot beef (corn, soy, antibiotics, growth hormones)",
+    "key_fact": "Grass-fed beef has 2-5x more omega-3 fatty acids, higher CLA (conjugated linoleic acid), and more antioxidant vitamins A and E than grain-fed. It also has a healthier omega-6 to omega-3 ratio",
+    "visual_idea": "Show the color difference — deep red grass-fed vs. pale grain-fed. Compare the fat: yellow (beta-carotene from grass) vs. white"
+  },
+  {
+    "id": "eggs",
+    "category": "Protein",
+    "healthy_option": "Organic pasture-raised eggs (hens roaming on grass, eating insects and plants)",
+    "processed_option": "Conventional cage-free or battery-cage eggs (confined hens, soy/corn feed, no outdoor access)",
+    "key_fact": "Pasture-raised eggs have 2x more omega-3s, 3x more vitamin D, and 6x more vitamin E. The deep orange yolk indicates higher beta-carotene from the hens' natural diet",
+    "visual_idea": "Crack both eggs into a pan — compare the pale yellow conventional yolk vs. the deep orange pasture-raised yolk"
+  },
+  {
+    "id": "fruits",
+    "category": "Produce",
+    "healthy_option": "Organic fruits (especially the Dirty Dozen: strawberries, apples, grapes, peaches, etc.)",
+    "processed_option": "Conventionally grown fruits sprayed with synthetic pesticides, fungicides, and wax coatings",
+    "key_fact": "The EWG Dirty Dozen shows that conventional strawberries can contain residues of 20+ different pesticides. Organic farming prohibits synthetic pesticides and has been linked to higher antioxidant levels",
+    "visual_idea": "Wash a conventional apple — show how water beads off the wax coating. 'That shiny coating isn't natural'"
+  },
+  {
+    "id": "salmon",
+    "category": "Protein",
+    "healthy_option": "Wild-caught salmon (sockeye, king, coho — naturally fed on krill and smaller fish)",
+    "processed_option": "Farm-raised salmon (crowded pens, antibiotics, artificial color added to feed — astaxanthin from petrochemicals)",
+    "key_fact": "Farm-raised salmon is dyed pink via synthetic astaxanthin in their feed — without it the flesh is gray. Wild salmon gets its color naturally from eating krill. Farm-raised also has higher PCB and dioxin levels",
+    "visual_idea": "Show a 'color chart' that salmon farms use to pick the exact shade of pink for their fish — 'they literally choose the color like paint swatches'"
+  },
+  {
+    "id": "salad_vegetables",
+    "category": "Produce",
+    "healthy_option": "Organic salad greens (lettuce, spinach, kale, arugula — grown without synthetic chemicals)",
+    "processed_option": "Conventional salad greens (sprayed with pesticides, often pre-washed with chlorine solutions)",
+    "key_fact": "Leafy greens are on the Dirty Dozen list because their large surface area absorbs more pesticide residue. Spinach samples had an average of 7 different pesticide residues. Organic greens also tend to have higher polyphenol content",
+    "visual_idea": "Show the triple-wash label on a conventional bag — 'washed 3 times and there's still pesticide residue. Imagine what's on the unwashed ones'"
+  },
+  {
+    "id": "water",
+    "category": "Beverages",
+    "healthy_option": "Filtered water (reverse osmosis, carbon block, or Berkey-type gravity filter — removes chlorine, fluoride, lead, PFAS)",
+    "processed_option": "Unfiltered tap water (may contain chlorine, fluoride, lead from pipes, microplastics, pharmaceutical residues, PFAS forever chemicals)",
+    "key_fact": "The EWG Tap Water Database shows that most US tap water contains detectable levels of PFAS, microplastics, and disinfection byproducts. A quality filter can remove 95-99% of contaminants",
+    "visual_idea": "Test tap water vs. filtered water with a TDS meter — show the number difference on screen. 'These are the dissolved solids you're drinking every day'"
+  },
+  {
+    "id": "containers",
+    "category": "Kitchen Essentials",
+    "healthy_option": "Glass food storage containers and stainless steel water bottles",
+    "processed_option": "Plastic food containers and water bottles (BPA, BPS, phthalates — especially when heated or scratched)",
+    "key_fact": "Heating plastic containers (even BPA-free) releases endocrine-disrupting microplastics into food. A study found that microwaving plastic releases billions of nanoplastic particles per serving. Glass and steel are chemically inert",
+    "visual_idea": "Put a plastic container next to a glass one — 'one leaches chemicals when heated, one doesn't. Which one is cheaper long-term?'"
+  },
+  {
+    "id": "cookware",
+    "category": "Kitchen Essentials",
+    "healthy_option": "Stainless steel, cast iron, and ceramic-coated cookware",
+    "processed_option": "Teflon (PTFE) non-stick pans and coated appliances (release toxic fumes above 500°F, coating degrades into PFAS)",
+    "key_fact": "Non-stick coatings contain PFAS (forever chemicals) that accumulate in the body. Overheated Teflon releases toxic fumes that can kill pet birds and cause polymer fume fever in humans. Cast iron actually adds beneficial iron to your food",
+    "visual_idea": "Show scratched non-stick pan — 'see those scratches? That coating is now in your food and your body. It never breaks down — that's why they're called forever chemicals'"
+  }
+]

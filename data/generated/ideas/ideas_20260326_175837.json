@@ -1,0 +1,46 @@
+[
+  {
+    "title_en": "Homemade vs. Store-Bought Salsa: Sweet or Spicy?",
+    "title_es": "Salsa Casera vs. Comprada: ¿Dulce o Picante?",
+    "pillar": "comparison",
+    "hook_en": "Is your salsa sweet or spicy? Let's find out!",
+    "hook_es": "¿Tu salsa es dulce o picante? ¡Vamos a descubrirlo!",
+    "key_message": "Homemade salsa is healthier with no added sugars unlike many store-bought salsas.",
+    "visual_elements": [
+      "split screen of homemade salsa ingredients vs. store-bought jar",
+      "close-up of nutrition labels showing sugars",
+      "comparison of vibrant homemade vs. dull store-bought salsa",
+      "taste test with exaggerated sweet vs. spicy reaction"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh salsa ingredients",
+      "store-bought salsa jar"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Fresh homemade salsa (tomatoes, onion, cilantro, lime) vs. PROCESSED: Store-bought salsa (high fructose corn syrup, artificial colors) — Store-bought salsa can contain up to 4g added sugar per serving"
+  },
+  {
+    "title_en": "Salsa Showdown: Fresh vs. Processed!",
+    "title_es": "¡Batalla de Salsas: Fresca vs. Procesada!",
+    "pillar": "comparison",
+    "hook_en": "Which salsa reigns supreme? Fresh or processed?",
+    "hook_es": "¿Qué salsa es la mejor? ¿Fresca o procesada?",
+    "key_message": "Fresh salsa is packed with natural flavors and nutrients, while processed versions often hide unwanted additives.",
+    "visual_elements": [
+      "side-by-side ingredient comparison",
+      "pouring both salsas into clear bowls",
+      "label highlighting artificial colors in store-bought salsa",
+      "close-up of dipping chip in each salsa with reaction"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh salsa ingredients",
+      "store-bought salsa jar",
+      "clear bowls",
+      "chips"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Fresh homemade salsa (tomatoes, onion, cilantro, lime) vs. PROCESSED: Store-bought salsa (high fructose corn syrup, artificial colors) — Store-bought salsa can contain up to 4g added sugar per serving"
+  }
+]

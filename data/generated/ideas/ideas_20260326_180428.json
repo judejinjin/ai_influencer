@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "Brominated Vegetable Oil: Why Is It Still In Our Drinks?",
+    "title_es": "Aceite Vegetal Bromado: ¿Por Qué Sigue en Nuestras Bebidas?",
+    "pillar": "regulation",
+    "hook_en": "Did you know your favorite soda might contain a banned chemical?",
+    "hook_es": "¿Sabías que tu refresco favorito podría tener un químico prohibido?",
+    "key_message": "Brominated Vegetable Oil is banned in many countries due to health risks, yet it's still in some US beverages.",
+    "visual_elements": [
+      "close-up of soda bottles",
+      "highlight ingredients list",
+      "map showing countries where BVO is banned",
+      "graphic of stats on health risks"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "variety of soda bottles",
+      "printed ingredient lists",
+      "world map"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Brominated Vegetable Oil (BVO): Sodas, sports drinks (emulsifier for citrus flavoring) — Banned in: EU, Japan, India — Health concern: Bromine accumulates in body tissue; linked to neurological and thyroid issues. FDA proposed ban in 2023\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Obesity and Deregulation: A Timeline You Need to See",
+    "title_es": "Obesidad y Desregulación: Una Línea de Tiempo Que Debes Ver",
+    "pillar": "regulation",
+    "hook_en": "Watch how obesity has skyrocketed as regulations loosened!",
+    "hook_es": "¡Mira cómo la obesidad se disparó al aflojar las regulaciones!",
+    "key_message": "The increase in obesity rates correlates with deregulation and the rise of ultra-processed foods.",
+    "visual_elements": [
+      "timeline graphic with obesity stats",
+      "images of processed foods",
+      "animated arrows linking deregulation and obesity rates"
+    ],
+    "duration_seconds": 60,
+    "props_needed": [
+      "printed timeline",
+      "variety of processed food packages"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Brominated Vegetable Oil (BVO): Sodas, sports drinks (emulsifier for citrus flavoring) — Banned in: EU, Japan, India — Health concern: Bromine accumulates in body tissue; linked to neurological and thyroid issues. FDA proposed ban in 2023\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

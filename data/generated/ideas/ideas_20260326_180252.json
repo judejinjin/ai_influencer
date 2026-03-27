@@ -1,0 +1,49 @@
+[
+  {
+    "title_en": "Spice Up Your Life with Jalapeños!",
+    "title_es": "¡Dale Sabor a Tu Vida con Jalapeños!",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know jalapeños can boost your metabolism?",
+    "hook_es": "¿Sabías que los jalapeños pueden acelerar tu metabolismo?",
+    "key_message": "Jalapeños' capsaicin can boost your metabolism by up to 8% and release endorphins for a feel-good kick. Keep the white ribs for maximum benefits.",
+    "visual_elements": [
+      "Close-up of a fresh jalapeño",
+      "Slicing jalapeño to show white ribs",
+      "Text overlay: 'Boosts metabolism by 8%'",
+      "Cooking jalapeños in a sizzling pan",
+      "Happy face enjoying jalapeños"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh jalapeños",
+      "cutting board",
+      "knife",
+      "pan"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Jalapeño — Capsaicin boosts metabolism by up to 8% and triggers endorphin release (Tip: The white ribs (not seeds) hold most of the capsaicin — remove for milder, keep for max benefit)"
+  },
+  {
+    "title_en": "Heat Things Up with Jalapeño Tips!",
+    "title_es": "¡Ponle Picante a Todo con Jalapeños!",
+    "pillar": "deep-dive",
+    "hook_en": "Want to make your jalapeños milder?",
+    "hook_es": "¿Quieres hacer tus jalapeños más suaves?",
+    "key_message": "For a milder jalapeño, remove the white ribs. To keep the heat and enjoy max capsaicin benefits, leave them in.",
+    "visual_elements": [
+      "Split screen: jalapeño with seeds and ribs vs. without",
+      "Removing ribs with a knife",
+      "Text overlay: 'Keep ribs for max heat'",
+      "Biting into a jalapeño and smiling",
+      "Endorphin release animation with happy faces"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh jalapeños",
+      "cutting board",
+      "knife"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Jalapeño — Capsaicin boosts metabolism by up to 8% and triggers endorphin release (Tip: The white ribs (not seeds) hold most of the capsaicin — remove for milder, keep for max benefit)"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "title_en": "Bone Broth: The Secret to Glowing Skin",
+    "title_es": "Caldo de Huesos: El Secreto para una Piel Radiante",
+    "pillar": "deep-dive",
+    "hook_en": "Want glowing skin? 🥣 Here's the magic ingredient!",
+    "hook_es": "¿Quieres una piel radiante? 🥣 ¡Aquí está el ingrediente mágico!",
+    "key_message": "Bone broth is packed with collagen, which supports skin elasticity and repair.",
+    "visual_elements": [
+      "Close-up of simmering pot with bones",
+      "Before and after shot of skin improvement",
+      "Quick pour of vinegar into broth",
+      "Ingredient list with benefits highlighted"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "pot",
+      "chicken or beef bones",
+      "vinegar",
+      "vegetable scraps"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Bone Broth — Rich in collagen, glycine, and minerals that support gut lining repair (Tip: Simmer for 12-24 hours to extract maximum collagen — add vinegar to pull more minerals from bones)"
+  },
+  {
+    "title_en": "Bone Broth Boost: Gut Health Hero",
+    "title_es": "Caldo de Huesos: Héroe de la Salud Intestinal",
+    "pillar": "deep-dive",
+    "hook_en": "Is your gut unhappy? 🥄 Try this ancient remedy!",
+    "hook_es": "¿Tu intestino está infeliz? 🥄 ¡Intenta este remedio antiguo!",
+    "key_message": "Bone broth is rich in glycine and minerals, essential for gut lining repair.",
+    "visual_elements": [
+      "Animated graphic showing gut lining with and without bone broth",
+      "Time-lapse of broth simmering for 24 hours",
+      "Adding different spices and herbs to broth",
+      "Serve broth in a beautiful mug"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "pot",
+      "bones",
+      "vinegar",
+      "herbs",
+      "spices"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Bone Broth — Rich in collagen, glycine, and minerals that support gut lining repair (Tip: Simmer for 12-24 hours to extract maximum collagen — add vinegar to pull more minerals from bones)"
+  }
+]

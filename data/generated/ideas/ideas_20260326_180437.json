@@ -1,0 +1,58 @@
+[
+  {
+    "title_en": "Why Europe Says 'No' To US Food Additives",
+    "title_es": "Por qué Europa dice 'No' a los aditivos alimentarios de EE. UU.",
+    "pillar": "regulation",
+    "hook_en": "Did you know these additives are banned in Europe?",
+    "hook_es": "¿Sabías que estos aditivos están prohibidos en Europa?",
+    "key_message": "Many food additives banned in Europe due to health risks are still allowed in the US, impacting public health.",
+    "visual_elements": [
+      "close-up",
+      "of",
+      "common",
+      "food",
+      "packages",
+      "with",
+      "highlighted",
+      "ingredients",
+      "banned",
+      "in",
+      "Europe"
+    ],
+    "duration_seconds": 50,
+    "props_needed": [
+      "variety",
+      "of",
+      "food",
+      "packages"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1906: Pure Food and Drug Act signed — first federal food safety law — Impact: Banned mislabeled food but lacked enforcement power\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "US Food Deregulation: A Recipe for Obesity?",
+    "title_es": "¿Deregulación alimentaria en EE. UU.: receta para la obesidad?",
+    "pillar": "regulation",
+    "hook_en": "Watch how regulations fueled the obesity epidemic!",
+    "hook_es": "¡Mira cómo las regulaciones alimentaron la epidemia de obesidad!",
+    "key_message": "Deregulation of food safety laws in the US has contributed to an increase in obesity rates.",
+    "visual_elements": [
+      "timeline",
+      "graphics",
+      "showing",
+      "obesity",
+      "rates",
+      "increasing",
+      "over",
+      "time"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "simple",
+      "timeline",
+      "graphics"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1906: Pure Food and Drug Act signed — first federal food safety law — Impact: Banned mislabeled food but lacked enforcement power\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

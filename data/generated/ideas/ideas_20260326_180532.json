@@ -1,0 +1,45 @@
+[
+  {
+    "title_en": "GRAS: The Loophole in Your Food",
+    "title_es": "GRAS: La Laguna en Tu Comida",
+    "pillar": "regulation",
+    "hook_en": "Did you know companies can add new chemicals to food without telling the FDA?",
+    "hook_es": "¿Sabías que las empresas pueden añadir químicos nuevos a los alimentos sin informar al FDA?",
+    "key_message": "The GRAS self-affirmation process allows companies to add new chemicals to food without FDA notification, posing potential risks to consumers.",
+    "visual_elements": [
+      "Close-up of a food label with unrecognizable ingredients",
+      "Quick cut to a shocked expression",
+      "Chart showing the rise in obesity rates alongside introduction of GRAS",
+      "Side-by-side comparison of foods with and without additives"
+    ],
+    "duration_seconds": 60,
+    "props_needed": [
+      "food labels",
+      "marker",
+      "chart paper"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1996: GRAS self-affirmation process formalized — Impact: Companies no longer need to notify FDA before adding new chemicals to food\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Why Your Snacks Have Chemicals Banned in Europe",
+    "title_es": "Por qué Tus Bocadillos Tienen Químicos Prohibidos en Europa",
+    "pillar": "regulation",
+    "hook_en": "Ever wondered why some snacks in the US contain chemicals banned in Europe?",
+    "hook_es": "¿Te has preguntado por qué algunos bocadillos en EE.UU. tienen químicos prohibidos en Europa?",
+    "key_message": "US food regulations allow additives banned in Europe due to health concerns, impacting public health.",
+    "visual_elements": [
+      "Comparison of US and European snack ingredient lists",
+      "Zoom in on specific banned additives",
+      "Animation of a globe highlighting US and Europe",
+      "Facial reaction of disgust while holding a snack"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "snack packages from US and Europe",
+      "magnifying glass"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1996: GRAS self-affirmation process formalized — Impact: Companies no longer need to notify FDA before adding new chemicals to food\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "title_en": "Battle of the Sauces: Homemade vs. Jarred",
+    "title_es": "La Batalla de las Salsas: Casera vs. Envasada",
+    "pillar": "comparison",
+    "hook_en": "You won't believe which sauce has more sugar than a cookie!",
+    "hook_es": "¡No vas a creer qué salsa tiene más azúcar que una galleta!",
+    "key_message": "Homemade tomato sauce is healthier, with no hidden sugars or additives.",
+    "visual_elements": [
+      "split-screen of homemade sauce ingredients",
+      "split-screen of jarred sauce ingredient list",
+      "close-up of sugar measurement",
+      "reaction shot of tasting"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh tomatoes",
+      "garlic",
+      "basil",
+      "olive oil",
+      "jarred pasta sauce",
+      "measuring cup for sugar"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• HEALTHY: Homemade tomato sauce (tomatoes, garlic, basil, olive oil) vs. PROCESSED: Jarred pasta sauce (added sugar, soybean oil, natural flavors) — Some jarred sauces have more sugar per serving than chocolate cookies"
+  },
+  {
+    "title_en": "Tomato Sauce Face-Off: Real vs. Fake",
+    "title_es": "Cara a Cara de Salsas de Tomate: Real vs. Falsa",
+    "pillar": "comparison",
+    "hook_en": "Real tomatoes vs. mystery ingredients — which would you choose?",
+    "hook_es": "Tomates reales vs. ingredientes misteriosos — ¿cuál elegirías?",
+    "key_message": "Jarred sauces often contain unhealthy additives and hidden sugars.",
+    "visual_elements": [
+      "animated ingredient list reveal",
+      "pouring homemade sauce over pasta",
+      "pouring jarred sauce over pasta",
+      "comparison of sugar content"
+    ],
+    "duration_seconds": 40,
+    "props_needed": [
+      "fresh tomatoes",
+      "garlic",
+      "basil",
+      "olive oil",
+      "jarred pasta sauce",
+      "pasta"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• HEALTHY: Homemade tomato sauce (tomatoes, garlic, basil, olive oil) vs. PROCESSED: Jarred pasta sauce (added sugar, soybean oil, natural flavors) — Some jarred sauces have more sugar per serving than chocolate cookies"
+  }
+]

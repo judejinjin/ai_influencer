@@ -1,0 +1,49 @@
+[
+  {
+    "title_en": "Granola Showdown: Homemade vs. Store-Bought Bars",
+    "title_es": "Granola Enfrentamiento: Casera vs. Barras de Tienda",
+    "pillar": "comparison",
+    "hook_en": "Which granola wins? Let's find out!",
+    "hook_es": "¿Cuál granola gana? ¡Descubramos!",
+    "key_message": "Homemade granola is healthier and free from harmful additives found in many store-bought bars.",
+    "visual_elements": [
+      "Split screen showing homemade granola ingredients on one side and a store-bought granola bar on the other",
+      "Close-up shots of oats, nuts, and honey",
+      "Highlighting labels of artificial ingredients on granola bar packaging",
+      "Final shot of a candy bar next to a granola bar with sugar content overlay"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Oats",
+      "Nuts",
+      "Honey",
+      "Store-bought granola bar",
+      "Candy bar"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• HEALTHY: Homemade granola (oats, nuts, honey) vs. PROCESSED: Store-bought granola bars (HFCS, soy lecithin, TBHQ) — Many granola bars have more sugar than a candy bar"
+  },
+  {
+    "title_en": "Granola Bar Breakdown: Truth in Ingredients",
+    "title_es": "Desglose de Barras de Granola: La Verdad en Ingredientes",
+    "pillar": "comparison",
+    "hook_en": "Ever read a granola bar label? Let's dive in!",
+    "hook_es": "¿Alguna vez leíste una etiqueta de barra de granola? ¡Vamos a explorar!",
+    "key_message": "Store-bought granola bars often contain hidden sugars and preservatives, unlike homemade options.",
+    "visual_elements": [
+      "Quick zoom-in on a granola bar ingredient list",
+      "Cut to a bowl of oats, nuts, and a jar of honey",
+      "Highlighting words like 'HFCS' and 'TBHQ' on the bar packaging",
+      "Comparison of sugar content in granola bar vs. homemade ingredients"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Store-bought granola bar",
+      "Oats",
+      "Nuts",
+      "Honey"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Homemade granola (oats, nuts, honey) vs. PROCESSED: Store-bought granola bars (HFCS, soy lecithin, TBHQ) — Many granola bars have more sugar than a candy bar"
+  }
+]

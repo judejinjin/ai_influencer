@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "Why is this banned in the EU but not in the US?",
+    "title_es": "¿Por qué está prohibido en la UE y no en EE. UU.?",
+    "pillar": "regulation",
+    "hook_en": "Did you know your candy might have banned ingredients?",
+    "hook_es": "¿Sabías que tus dulces podrían tener ingredientes prohibidos?",
+    "key_message": "Titanium Dioxide is banned in the EU due to potential genotoxicity but is still used in US candies and food products.",
+    "visual_elements": [
+      "close-up of colorful candies",
+      "cut to a list of candies with titanium dioxide",
+      "overlay text showing 'Banned in EU'",
+      "illustration of DNA strand breaking"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "colorful candies",
+      "printed list"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Titanium Dioxide (E171): Candy, coffee creamer, frosting, supplements — Banned in: EU (banned 2022) — Health concern: Potential genotoxicity — can damage DNA per EFSA assessment\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "America's Growing Problem: Obesity & Deregulation",
+    "title_es": "El problema creciente de América: Obesidad y desregulación",
+    "pillar": "regulation",
+    "hook_en": "Why has American obesity skyrocketed?",
+    "hook_es": "¿Por qué ha aumentado la obesidad en América?",
+    "key_message": "The rise in obesity rates correlates with deregulation in food additives and lax policies compared to other countries.",
+    "visual_elements": [
+      "animated line graph of obesity rates over time",
+      "split screen: healthy meal vs. processed snack",
+      "overlay text with obesity statistics from 1960 to 2024",
+      "footage of grocery store aisles with processed foods"
+    ],
+    "duration_seconds": 60,
+    "props_needed": [
+      "graph printout",
+      "two plates (healthy vs. processed food)"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Titanium Dioxide (E171): Candy, coffee creamer, frosting, supplements — Banned in: EU (banned 2022) — Health concern: Potential genotoxicity — can damage DNA per EFSA assessment\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "title_en": "Frozen Fruits vs. Bottled Smoothies: The Sweet Truth",
+    "title_es": "Frutas Congeladas vs. Batidos en Botella: La Dulce Verdad",
+    "pillar": "comparison",
+    "hook_en": "Ever compared your smoothie to soda? Let's dive in!",
+    "hook_es": "¿Alguna vez has comparado tu batido con un refresco? ¡Vamos a verlo!",
+    "key_message": "Frozen whole fruits allow you to control sugar intake, unlike bottled smoothies which often contain more sugar than a can of soda.",
+    "visual_elements": [
+      "Close-up of fresh frozen fruits being blended into a smoothie",
+      "Side-by-side of homemade smoothie vs. bottled smoothie",
+      "Overhead shot of pouring bottled smoothie into glass with sugar cubes next to it",
+      "Text overlay displaying sugar content comparison"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "frozen fruits",
+      "blender",
+      "bottled smoothie",
+      "glass",
+      "sugar cubes"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Frozen whole fruits for smoothies vs. PROCESSED: Bottled smoothies (sugar, concentrates, gums, natural flavors) — Bottled smoothies can contain 40-60g sugar — more than a can of soda"
+  },
+  {
+    "title_en": "DIY Smoothie vs. Store-Bought: What's in Your Drink?",
+    "title_es": "Batido Casero vs. Comprado: ¿Qué Hay en Tu Bebida?",
+    "pillar": "comparison",
+    "hook_en": "What's hiding in your store-bought smoothie?",
+    "hook_es": "¿Qué se esconde en tu batido comprado?",
+    "key_message": "Homemade smoothies avoid additives and excess sugar, unlike store-bought ones laden with concentrates and natural flavors.",
+    "visual_elements": [
+      "Split screen of fresh fruit ingredients vs. bottled smoothie",
+      "Zoom into ingredient labels showing additives",
+      "Pouring homemade smoothie next to bottled one with labels popping up",
+      "End screen with a smiley face in front of homemade smoothie"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fresh fruits",
+      "bottled smoothie",
+      "clear cups",
+      "ingredient labels printouts"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Frozen whole fruits for smoothies vs. PROCESSED: Bottled smoothies (sugar, concentrates, gums, natural flavors) — Bottled smoothies can contain 40-60g sugar — more than a can of soda"
+  }
+]

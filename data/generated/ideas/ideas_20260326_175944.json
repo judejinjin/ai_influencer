@@ -1,0 +1,48 @@
+[
+  {
+    "title_en": "Real Lemonade vs. Fake Juice",
+    "title_es": "Limonada Real vs. Jugo Falso",
+    "pillar": "comparison",
+    "hook_en": "Let's squeeze some truth about lemonades!",
+    "hook_es": "¡Exprimamos la verdad sobre las limonadas!",
+    "key_message": "Homemade lemonade with real ingredients is healthier than commercial options filled with additives and no real lemon juice.",
+    "visual_elements": [
+      "close-up of fresh lemons being squeezed",
+      "pouring raw honey into a glass",
+      "bottle of commercial lemonade with ingredients list visible",
+      "side-by-side comparison of homemade and commercial lemonade"
+    ],
+    "duration_seconds": 50,
+    "props_needed": [
+      "lemons",
+      "raw honey",
+      "commercial lemonade bottle",
+      "two glasses"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Homemade lemonade (lemons, water, raw honey) vs. PROCESSED: Commercial lemonade (HFCS, citric acid, yellow 5) — Commercial lemonade often contains zero actual lemon juice"
+  },
+  {
+    "title_en": "What's in Your Lemonade?",
+    "title_es": "¿Qué Hay en Tu Limonada?",
+    "pillar": "comparison",
+    "hook_en": "Real lemons or just yellow 5? Let's find out!",
+    "hook_es": "¿Limones reales o solo amarillo 5? ¡Descubramos!",
+    "key_message": "Commercial lemonades can be misleading; they often contain artificial additives instead of real lemons.",
+    "visual_elements": [
+      "pouring glass of homemade lemonade",
+      "label close-up of commercial lemonade showing 'yellow 5'",
+      "quick ingredient list pop-up with visuals (lemons vs. additives)",
+      "taste-test reaction: natural vs. artificial"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "lemons",
+      "raw honey",
+      "commercial lemonade bottle",
+      "two glasses"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Homemade lemonade (lemons, water, raw honey) vs. PROCESSED: Commercial lemonade (HFCS, citric acid, yellow 5) — Commercial lemonade often contains zero actual lemon juice"
+  }
+]

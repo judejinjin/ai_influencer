@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Glass vs. Plastic: The Battle for Your Health",
+    "title_es": "Vidrio vs. Plástico: La Batalla por Tu Salud",
+    "pillar": "comparison",
+    "hook_en": "Watch what happens when I heat this plastic container!",
+    "hook_es": "¡Mira qué pasa cuando caliento este contenedor de plástico!",
+    "key_message": "Heating plastic containers releases harmful microplastics into your food, while glass keeps your meals safe.",
+    "visual_elements": [
+      "side_by_side_of_plastic_and_glass_containers",
+      "microwave_scene_with_plastic_container",
+      "close_up_of_glass_staying_intact",
+      "overlay_text_comparing_health_risks"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "microwave",
+      "plastic_container",
+      "glass_container"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Kitchen Essentials]:\n• HEALTHY: Glass food storage containers and stainless steel water bottles\n• PROCESSED/CONVENTIONAL: Plastic food containers and water bottles (BPA, BPS, phthalates — especially when heated or scratched)\n• KEY FACT: Heating plastic containers (even BPA-free) releases endocrine-disrupting microplastics into food. A study found that microwaving plastic releases billions of nanoplastic particles per serving. Glass and steel are chemically inert\n• VISUAL IDEA: Put a plastic container next to a glass one — 'one leaches chemicals when heated, one doesn't. Which one is cheaper long-term?'"
+  },
+  {
+    "title_en": "Plastic vs. Steel: Which Water Bottle Wins?",
+    "title_es": "Plástico vs. Acero: ¿Qué Botella Gana?",
+    "pillar": "comparison",
+    "hook_en": "Ever wondered what's in your water? Let's find out!",
+    "hook_es": "¿Te has preguntado qué hay en tu agua? ¡Vamos a descubrirlo!",
+    "key_message": "Stainless steel bottles are a healthier choice as they don't leach chemicals like plastic.",
+    "visual_elements": [
+      "water_bottle_comparison",
+      "close_up_of_plastic_bottle_scratches",
+      "steel_bottle_shining",
+      "pouring_water_into_glass_from_each_bottle",
+      "text_overlay_cost_analysis"
+    ],
+    "duration_seconds": 50,
+    "props_needed": [
+      "plastic_water_bottle",
+      "stainless_steel_water_bottle",
+      "glass"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Kitchen Essentials]:\n• HEALTHY: Glass food storage containers and stainless steel water bottles\n• PROCESSED/CONVENTIONAL: Plastic food containers and water bottles (BPA, BPS, phthalates — especially when heated or scratched)\n• KEY FACT: Heating plastic containers (even BPA-free) releases endocrine-disrupting microplastics into food. A study found that microwaving plastic releases billions of nanoplastic particles per serving. Glass and steel are chemically inert\n• VISUAL IDEA: Put a plastic container next to a glass one — 'one leaches chemicals when heated, one doesn't. Which one is cheaper long-term?'"
+  }
+]

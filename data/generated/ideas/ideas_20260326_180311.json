@@ -1,0 +1,45 @@
+[
+  {
+    "title_en": "The Shocking Truth About Red Dye 3",
+    "title_es": "La Impactante Verdad Sobre el Colorante Rojo 3",
+    "pillar": "regulation",
+    "hook_en": "Did you know this candy ingredient is banned in Europe?",
+    "hook_es": "¿Sabías que este ingrediente de caramelos está prohibido en Europa?",
+    "key_message": "Red Dye 3, used in many US foods, is linked to health issues and banned in parts of Europe.",
+    "visual_elements": [
+      "close-up of candy with bright red color",
+      "text overlay of 'Banned in Europe!'",
+      "pie chart showing countries banning Red Dye 3",
+      "comparison of US vs. European candy ingredients"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "red-colored candy",
+      "stickers for labeling",
+      "pie chart printout"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Red Dye 3 (Erythrosine): Candy, baked goods, maraschino cherries — Banned in: EU (partially), Austria, Norway — Health concern: Linked to thyroid tumors in animal studies; FDA acknowledged carcinogenicity in 1990 but only banned in cosmetics\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "US Obesity Crisis: What's Behind the Numbers?",
+    "title_es": "Crisis de Obesidad en EE.UU.: ¿Qué Hay Detrás de los Números?",
+    "pillar": "regulation",
+    "hook_en": "Let's break down the rising obesity rates!",
+    "hook_es": "¡Vamos a desglosar las tasas de obesidad en aumento!",
+    "key_message": "US deregulation of food additives correlates with rising obesity rates over the decades.",
+    "visual_elements": [
+      "animated graph showing obesity rate increase from 1960 to 2024",
+      "images of processed foods",
+      "text overlay of deregulation timeline",
+      "footage of healthy vs. processed food options"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "printed graphs",
+      "variety of processed food packaging"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Red Dye 3 (Erythrosine): Candy, baked goods, maraschino cherries — Banned in: EU (partially), Austria, Norway — Health concern: Linked to thyroid tumors in animal studies; FDA acknowledged carcinogenicity in 1990 but only banned in cosmetics\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

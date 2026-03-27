@@ -1,0 +1,46 @@
+[
+  {
+    "title_en": "Kimchi: The Gut Health Game-Changer",
+    "title_es": "Kimchi: El Cambio de Juego para la Salud Intestinal",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know this spicy dish can boost your gut health?",
+    "hook_es": "¿Sabías que este plato picante puede mejorar tu salud intestinal?",
+    "key_message": "Kimchi is packed with live probiotics that can improve gut microbiome diversity.",
+    "visual_elements": [
+      "Close-up of a jar of kimchi",
+      "Bilingual text overlay: 'Live Probiotics!'",
+      "Split-screen: Refrigerated vs. shelf-stable kimchi",
+      "Zoom in on ingredient list showing 'fermented'",
+      "Her taking a bite with an exaggerated 'yummy' expression"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Jar of kimchi",
+      "Refrigerator"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Fermented Foods (Kimchi, Sauerkraut) — Contain live probiotics that support gut microbiome diversity (Tip: Buy refrigerated versions (not shelf-stable) — pasteurization kills live cultures)"
+  },
+  {
+    "title_en": "Sauerkraut: Beyond the Hot Dog",
+    "title_es": "Chucrut: Más Allá del Perro Caliente",
+    "pillar": "deep-dive",
+    "hook_en": "You won't believe what sauerkraut can do for your health!",
+    "hook_es": "¡No vas a creer lo que el chucrut puede hacer por tu salud!",
+    "key_message": "Sauerkraut's live probiotics help support a healthy gut microbiome.",
+    "visual_elements": [
+      "Bowl of sauerkraut with vibrant color",
+      "Text overlay: 'Live Cultures!'",
+      "Comparison: Refrigerated vs. shelf-stable packaging",
+      "Highlighting 'unpasteurized' on the label",
+      "Mixing sauerkraut into a salad with a happy dance"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Bowl of sauerkraut",
+      "Salad ingredients"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Fermented Foods (Kimchi, Sauerkraut) — Contain live probiotics that support gut microbiome diversity (Tip: Buy refrigerated versions (not shelf-stable) — pasteurization kills live cultures)"
+  }
+]

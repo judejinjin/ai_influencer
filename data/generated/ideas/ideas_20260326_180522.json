@@ -1,0 +1,43 @@
+[
+  {
+    "title_en": "The Grain Pyramid: How It Tipped Our Scales",
+    "title_es": "La Pirámide de Granos: Cómo Desbalanceó Nuestro Peso",
+    "pillar": "regulation",
+    "hook_en": "Did you know this food pyramid was built on lies?",
+    "hook_es": "¿Sabías que esta pirámide alimenticia fue construida sobre mentiras?",
+    "key_message": "The 1992 USDA food pyramid was heavily influenced by grain industry lobbying, recommending an excessive intake of grains, impacting obesity rates.",
+    "visual_elements": [
+      "A flip from the USDA food pyramid chart to viewers eating different sizes of bread",
+      "Graphs showing the increase in obesity rates overlaying the pyramid image",
+      "A comparison of portion sizes from 1992 to today"
+    ],
+    "duration_seconds": 50,
+    "props_needed": [
+      "Printed food pyramid chart",
+      "bread loaves",
+      "graphs"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1992: USDA Food Pyramid released — Impact: Heavily influenced by grain/dairy industry lobbying — recommended 6-11 servings of grains daily\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Banned in Europe, But on Your Plate?",
+    "title_es": "¿Prohibido en Europa, Pero en Tu Plato?",
+    "pillar": "regulation",
+    "hook_en": "Why is this toxic additive still in our food?",
+    "hook_es": "¿Por qué este aditivo tóxico sigue en nuestra comida?",
+    "key_message": "Some additives banned in Europe for health reasons are still allowed in the US, contributing to health issues like obesity.",
+    "visual_elements": [
+      "Side-by-side comparison of food labels from US and European products",
+      "Close-up of food additive names with a red 'X' over European ones",
+      "Overlay of health statistics related to obesity with these additives"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "US and European food product labels",
+      "red marker"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1992: USDA Food Pyramid released — Impact: Heavily influenced by grain/dairy industry lobbying — recommended 6-11 servings of grains daily\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

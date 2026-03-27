@@ -1,0 +1,42 @@
+[
+  {
+    "title_en": "Dark Chocolate vs. Candy Bars: The Sweet Truth",
+    "title_es": "Chocolate Oscuro vs. Barras de Dulce: La Dulce Verdad",
+    "pillar": "comparison",
+    "hook_en": "Dark chocolate or candy bar? Let's break it down!",
+    "hook_es": "¿Chocolate oscuro o barra de dulce? ¡Vamos a desglosarlo!",
+    "key_message": "Dark chocolate with 70%+ cacao is a healthier choice over processed candy bars filled with additives like TBHQ.",
+    "visual_elements": [
+      "split_screen_of_dark_chocolate_and_milk_candy_bar",
+      "close_up_of_ingredient_list_on_candy_bar_label",
+      "animated_comparison_of_health_benefits_and_risks"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "dark chocolate bar",
+      "milk chocolate candy bar"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Dark chocolate (70%+ cacao, cocoa butter) vs. PROCESSED: Milk chocolate candy bars (sugar, PGPR, TBHQ, artificial vanilla) — TBHQ is a petroleum-derived preservative banned in some countries"
+  },
+  {
+    "title_en": "What's Really Inside Your Chocolate?",
+    "title_es": "¿Qué Hay Realmente en Tu Chocolate?",
+    "pillar": "comparison",
+    "hook_en": "Surprise: Not all chocolate is created equal!",
+    "hook_es": "Sorpresa: ¡No todo el chocolate es igual!",
+    "key_message": "While dark chocolate can be a nutritious treat, many candy bars contain harmful additives banned in other countries.",
+    "visual_elements": [
+      "side_by_side_comparison_of_dark_and_milk_chocolate",
+      "ingredients_being_highlighted_with_overlays",
+      "graphic_showing_countries_where_additives_are_banned"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "dark chocolate bar",
+      "milk chocolate candy bar"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Dark chocolate (70%+ cacao, cocoa butter) vs. PROCESSED: Milk chocolate candy bars (sugar, PGPR, TBHQ, artificial vanilla) — TBHQ is a petroleum-derived preservative banned in some countries"
+  }
+]

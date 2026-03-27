@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Oatmeal Showdown: Fresh vs. Flavored",
+    "title_es": "Batalla de Avena: Fresca vs. Saborizada",
+    "pillar": "comparison",
+    "hook_en": "Watch me transform oats two ways: healthy and sugary!",
+    "hook_es": "¡Mira cómo transformo la avena de dos maneras: saludable y azucarada!",
+    "key_message": "Instant flavored oatmeal is convenient but packed with added sugars and artificial flavors—opt for fresh, whole ingredients for a healthier start.",
+    "visual_elements": [
+      "Split screen: Steel-cut oats with fresh berries on one side, instant flavored oatmeal packet on the other",
+      "Close-up of instant packet ingredients list highlighting sugars and artificial flavors",
+      "Dramatic pour of fresh berries over steel-cut oats"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Steel-cut oats",
+      "Instant flavored oatmeal packet",
+      "Fresh berries",
+      "Bowls"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Steel-cut oats with fresh berries vs. PROCESSED: Instant flavored oatmeal packets — Instant packets contain up to 12g added sugar and artificial flavors"
+  },
+  {
+    "title_en": "Morning Oats: Sweet N' Simple vs. Sneaky Sugars",
+    "title_es": "Avena Matutina: Dulce y Simple vs. Azúcares Ocultos",
+    "pillar": "comparison",
+    "hook_en": "Can you guess which oatmeal keeps you fuller longer?",
+    "hook_es": "¿Puedes adivinar qué avena te mantiene satisfecho por más tiempo?",
+    "key_message": "Choosing steel-cut oats with fresh berries is a smarter choice for sustained energy and fewer hidden sugars compared to instant packets.",
+    "visual_elements": [
+      "Close-up: Measuring sugar content from instant packet into a bowl",
+      "Side-by-side comparison: Finished bowls of steel-cut oats with fresh berries and instant oatmeal with a sugar packet beside it",
+      "Visual of a hand holding a clock, emphasizing how long each option keeps you full"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Steel-cut oats",
+      "Instant flavored oatmeal packet",
+      "Fresh berries",
+      "Measuring spoon",
+      "Clock prop or timer app"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Steel-cut oats with fresh berries vs. PROCESSED: Instant flavored oatmeal packets — Instant packets contain up to 12g added sugar and artificial flavors"
+  }
+]

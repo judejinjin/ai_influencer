@@ -1,0 +1,43 @@
+[
+  {
+    "title_en": "Bread Battle: Ezekiel vs. Commercial Slices",
+    "title_es": "Batalla de Pan: Ezekiel vs. Rebanadas Comerciales",
+    "pillar": "comparison",
+    "hook_en": "Look at this bread! Which one is healthier?",
+    "hook_es": "¡Mira este pan! ¿Cuál es más saludable?",
+    "key_message": "Ezekiel bread has fewer ingredients, no preservatives, and boosts nutrient absorption.",
+    "visual_elements": [
+      "split_screen_comparison",
+      "close_up_of_ingredient_lists",
+      "freezer_vs_pantry"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Ezekiel_bread_package",
+      "commercial_bread_package"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Grains & Bakery]:\n• HEALTHY: Ezekiel bread (frozen organic sprouted, no preservatives — just sprouted grains, lentils, soybeans)\n• PROCESSED/CONVENTIONAL: Commercial sliced bread (preservatives like calcium propionate, DATEM, soybean oil, added sugar)\n• KEY FACT: Sprouted grain bread increases nutrient bioavailability by 30-50% and breaks down phytic acid, which blocks mineral absorption in regular bread\n• VISUAL IDEA: Compare ingredient lists side by side — 6 ingredients vs. 30+. Show that Ezekiel bread lives in the freezer because it has zero preservatives"
+  },
+  {
+    "title_en": "Freezer Fresh: The Truth About Sprouted Bread",
+    "title_es": "Frescura del Congelador: La Verdad sobre el Pan Germinado",
+    "pillar": "comparison",
+    "hook_en": "Why is this bread in the freezer? Let me show you!",
+    "hook_es": "¿Por qué este pan está en el congelador? ¡Déjame mostrarte!",
+    "key_message": "Sprouted grain bread, like Ezekiel, needs no preservatives and increases nutrient bioavailability.",
+    "visual_elements": [
+      "showing_freezer_storage",
+      "ingredient_list_comparison",
+      "highlighting_sprouted_grains"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Ezekiel_bread",
+      "freezer",
+      "ingredient_list_chart"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Grains & Bakery]:\n• HEALTHY: Ezekiel bread (frozen organic sprouted, no preservatives — just sprouted grains, lentils, soybeans)\n• PROCESSED/CONVENTIONAL: Commercial sliced bread (preservatives like calcium propionate, DATEM, soybean oil, added sugar)\n• KEY FACT: Sprouted grain bread increases nutrient bioavailability by 30-50% and breaks down phytic acid, which blocks mineral absorption in regular bread\n• VISUAL IDEA: Compare ingredient lists side by side — 6 ingredients vs. 30+. Show that Ezekiel bread lives in the freezer because it has zero preservatives"
+  }
+]

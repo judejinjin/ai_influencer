@@ -1,0 +1,49 @@
+[
+  {
+    "title_en": "Greek Yogurt vs. Sugar Bombs!",
+    "title_es": "¡Yogur Griego vs. Bombas de Azúcar!",
+    "pillar": "comparison",
+    "hook_en": "Spot the difference in just a glance!",
+    "hook_es": "¡Descubre la diferencia de un vistazo!",
+    "key_message": "Greek yogurt with fruit is a healthier choice than flavored yogurt loaded with sugar and additives.",
+    "visual_elements": [
+      "side-by-side",
+      "fresh greek yogurt with berries",
+      "flavored yogurt label with sugar content highlighted",
+      "spoonful of sugar next to donut"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "greek yogurt",
+      "berries",
+      "flavored yogurt cups",
+      "sugar packets",
+      "donut"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Greek yogurt with fresh fruit vs. PROCESSED: Flavored yogurt cups (sugar, artificial colors, carrageenan) — Flavored yogurts can have 20-25g sugar per serving — as much as a donut"
+  },
+  {
+    "title_en": "The Truth About Your Yogurt!",
+    "title_es": "¡La Verdad Sobre Tu Yogur!",
+    "pillar": "comparison",
+    "hook_en": "What's really in your yogurt cup? Let's reveal!",
+    "hook_es": "¿Qué hay realmente en tu yogur? ¡Vamos a revelarlo!",
+    "key_message": "Flavored yogurts can have as much sugar as a donut, making Greek yogurt with fruit a healthier alternative.",
+    "visual_elements": [
+      "ingredient list of flavored yogurt",
+      "comparison of sugar content",
+      "highlighted artificial ingredients",
+      "close-up of fresh fruits"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "flavored yogurt cup",
+      "greek yogurt",
+      "fresh fruits",
+      "donut"
+    ],
+    "trending_relevance": "none",
+    "_source_food_context": "• HEALTHY: Greek yogurt with fresh fruit vs. PROCESSED: Flavored yogurt cups (sugar, artificial colors, carrageenan) — Flavored yogurts can have 20-25g sugar per serving — as much as a donut"
+  }
+]

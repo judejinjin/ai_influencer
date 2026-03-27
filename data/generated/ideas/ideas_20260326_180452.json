@@ -1,0 +1,49 @@
+[
+  {
+    "title_en": "GRAS Loophole: America's Hidden Food Safety Secret",
+    "title_es": "GRAS: El Secreto Oculto de Seguridad Alimentaria en EE.UU.",
+    "pillar": "regulation",
+    "hook_en": "Did you know companies can bypass the FDA for food safety? 🤯",
+    "hook_es": "¿Sabías que las empresas pueden esquivar al FDA para la seguridad alimentaria? 🤯",
+    "key_message": "The GRAS loophole allows companies to self-certify food additives as safe without FDA review, potentially compromising public health.",
+    "visual_elements": [
+      "split_screen_showing",
+      "GRAS_label",
+      "vs_FDA_label",
+      "chart_of_obesity_rates",
+      "1958_law_document",
+      "shocked_reaction_face"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "GRAS_label_printout",
+      "chart_of_obesity_rates",
+      "1958_law_document_printout"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1958: Food Additives Amendment — GRAS loophole created — Impact: Companies can self-certify ingredients as safe WITHOUT FDA review\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "From Safe to Unsafe: Banned Additives in Your Food",
+    "title_es": "De Seguro a Peligroso: Aditivos Prohibidos en Tu Comida",
+    "pillar": "regulation",
+    "hook_en": "Why are banned additives still in your food? 😱",
+    "hook_es": "¿Por qué aditivos prohibidos siguen en tu comida? 😱",
+    "key_message": "US regulations allow certain additives banned in other countries, putting consumers at risk and contributing to rising obesity rates.",
+    "visual_elements": [
+      "close_up_of_food_labels",
+      "highlighted_additives",
+      "comparison_chart_of_bans",
+      "obesity_rate_graph",
+      "concerned_reaction_face"
+    ],
+    "duration_seconds": 60,
+    "props_needed": [
+      "assorted_food_products",
+      "printout_of_banned_additives_list",
+      "obesity_rate_graph"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1958: Food Additives Amendment — GRAS loophole created — Impact: Companies can self-certify ingredients as safe WITHOUT FDA review\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

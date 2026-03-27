@@ -1,0 +1,46 @@
+[
+  {
+    "title_en": "Grass-Fed vs. Grain-Fed Beef: What's on Your Plate?",
+    "title_es": "Carne de pasto vs. Carne de granja: ¿Qué hay en tu plato?",
+    "pillar": "comparison",
+    "hook_en": "Can you spot the difference in just 2 seconds?",
+    "hook_es": "¿Puedes notar la diferencia en solo 2 segundos?",
+    "key_message": "Grass-fed beef is richer in omega-3s, CLA, and antioxidants, offering significant nutritional benefits over conventional grain-fed beef.",
+    "visual_elements": [
+      "Split screen of a sizzling pan with grass-fed beef on one side and grain-fed beef on the other",
+      "Close-up of beef color: deep red vs. pale",
+      "Comparison of fat color: yellow vs. white",
+      "Text overlay highlighting nutritional differences: omega-3s, CLA, vitamins"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "two steak cuts (grass-fed and grain-fed)",
+      "frying pan",
+      "spatula"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Protein]:\n• HEALTHY: 100% grass-fed, grass-finished beef\n• PROCESSED/CONVENTIONAL: Conventional grain-fed feedlot beef (corn, soy, antibiotics, growth hormones)\n• KEY FACT: Grass-fed beef has 2-5x more omega-3 fatty acids, higher CLA (conjugated linoleic acid), and more antioxidant vitamins A and E than grain-fed. It also has a healthier omega-6 to omega-3 ratio\n• VISUAL IDEA: Show the color difference — deep red grass-fed vs. pale grain-fed. Compare the fat: yellow (beta-carotene from grass) vs. white"
+  },
+  {
+    "title_en": "Omega-3s: Unlocking the Secret in Your Steak!",
+    "title_es": "Omega-3: ¡Descubriendo el secreto en tu bistec!",
+    "pillar": "comparison",
+    "hook_en": "Ever wondered how omega-3s sneak into your beef?",
+    "hook_es": "¿Te has preguntado cómo los omega-3 llegan a tu carne?",
+    "key_message": "Choosing grass-fed beef can significantly boost your intake of omega-3 fatty acids, essential for heart and brain health.",
+    "visual_elements": [
+      "Visual of a bottle of omega-3 pills pouring onto a grass-fed steak",
+      "Animation illustrating omega-3's journey from grass to beef",
+      "Graphic side-by-side of omega-3 content: grass-fed vs. grain-fed",
+      "Quick kitchen tip: how to identify grass-fed beef by its color and fat"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "grass-fed steak",
+      "grain-fed steak",
+      "omega-3 supplement bottle"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Protein]:\n• HEALTHY: 100% grass-fed, grass-finished beef\n• PROCESSED/CONVENTIONAL: Conventional grain-fed feedlot beef (corn, soy, antibiotics, growth hormones)\n• KEY FACT: Grass-fed beef has 2-5x more omega-3 fatty acids, higher CLA (conjugated linoleic acid), and more antioxidant vitamins A and E than grain-fed. It also has a healthier omega-6 to omega-3 ratio\n• VISUAL IDEA: Show the color difference — deep red grass-fed vs. pale grain-fed. Compare the fat: yellow (beta-carotene from grass) vs. white"
+  }
+]

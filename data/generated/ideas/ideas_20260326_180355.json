@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "Why is BHT allowed in the US?",
+    "title_es": "¿Por qué se permite BHT en EE.UU.?",
+    "pillar": "regulation",
+    "hook_en": "What if I told you your cereal has a banned additive?!",
+    "hook_es": "¿Y si te dijera que tu cereal tiene un aditivo prohibido?",
+    "key_message": "BHT is an additive banned in the UK and EU but legal in the US, raising health concerns due to its potential as an endocrine disruptor.",
+    "visual_elements": [
+      "close-up of cereal box",
+      "highlighted ingredient list showing BHT",
+      "comparison map of US vs. UK/EU regulations",
+      "short clip of actress reacting with surprise"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "cereal box with BHT",
+      "marker pen for highlighting"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • BHT (Butylated Hydroxytoluene): Cereals, snack foods, packaging materials — Banned in: UK, EU (restricted in food contact) — Health concern: Possible endocrine disruptor; linked to liver and kidney damage in animal studies\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "The US Obesity Epidemic: Deregulation Impact",
+    "title_es": "La Epidemia de Obesidad en EE.UU.: Impacto de la Desregulación",
+    "pillar": "regulation",
+    "hook_en": "US obesity rates have skyrocketed — what’s fueling it?",
+    "hook_es": "Las tasas de obesidad en EE.UU. se han disparado, ¿qué lo está causando?",
+    "key_message": "Deregulation in food safety has contributed to the US obesity epidemic, as seen in skyrocketing obesity rates over the decades.",
+    "visual_elements": [
+      "graph showing US obesity rates from 1960 to 2024",
+      "timeline of deregulation events",
+      "clip of actress pointing to increasing line on graph",
+      "overlay text highlighting deregulation contribution"
+    ],
+    "duration_seconds": 60,
+    "props_needed": [
+      "printed graph of obesity rates",
+      "marker for highlighting graph"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • BHT (Butylated Hydroxytoluene): Cereals, snack foods, packaging materials — Banned in: UK, EU (restricted in food contact) — Health concern: Possible endocrine disruptor; linked to liver and kidney damage in animal studies\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

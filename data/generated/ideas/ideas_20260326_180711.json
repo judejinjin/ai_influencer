@@ -1,0 +1,46 @@
+[
+  {
+    "title_en": "Filtered vs. Tap Water: What's Really in Your Glass?",
+    "title_es": "Agua Filtrada vs. Agua del Grifo: ¿Qué Hay Realmente en Tu Vaso?",
+    "pillar": "comparison",
+    "hook_en": "Watch this tap water test blow your mind!",
+    "hook_es": "¡Mira cómo este test del agua del grifo te deja boquiabierto!",
+    "key_message": "Learn why filtering your water can drastically reduce contaminants like PFAS and microplastics.",
+    "visual_elements": [
+      "Close-up of two clear glasses: one with tap water, one with filtered water",
+      "Using a TDS meter to test both waters, showing number difference on screen",
+      "Animated graphics of contaminants being filtered out",
+      "Comparison chart with EWG Tap Water Database stats"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "TDS meter",
+      "two clear glasses",
+      "water filter"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Beverages]:\n• HEALTHY: Filtered water (reverse osmosis, carbon block, or Berkey-type gravity filter — removes chlorine, fluoride, lead, PFAS)\n• PROCESSED/CONVENTIONAL: Unfiltered tap water (may contain chlorine, fluoride, lead from pipes, microplastics, pharmaceutical residues, PFAS forever chemicals)\n• KEY FACT: The EWG Tap Water Database shows that most US tap water contains detectable levels of PFAS, microplastics, and disinfection byproducts. A quality filter can remove 95-99% of contaminants\n• VISUAL IDEA: Test tap water vs. filtered water with a TDS meter — show the number difference on screen. 'These are the dissolved solids you're drinking every day'"
+  },
+  {
+    "title_en": "What's in Your Water? Tap vs. Filtered!",
+    "title_es": "¿Qué Hay en Tu Agua? ¡Grifo vs. Filtrada!",
+    "pillar": "comparison",
+    "hook_en": "Tap vs. filtered water showdown!",
+    "hook_es": "¡Comparación de agua del grifo y filtrada!",
+    "key_message": "Discover how a simple filter can make your drinking water safer by removing up to 99% of harmful substances.",
+    "visual_elements": [
+      "Pouring tap water into one glass and filtered water into another",
+      "Slow-motion close-up of the TDS meter displaying readings",
+      "Split screen of harmful chemicals with and without filter",
+      "Latina influencer drinking filtered water with a thumbs-up"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "TDS meter",
+      "two glasses",
+      "water filter"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Beverages]:\n• HEALTHY: Filtered water (reverse osmosis, carbon block, or Berkey-type gravity filter — removes chlorine, fluoride, lead, PFAS)\n• PROCESSED/CONVENTIONAL: Unfiltered tap water (may contain chlorine, fluoride, lead from pipes, microplastics, pharmaceutical residues, PFAS forever chemicals)\n• KEY FACT: The EWG Tap Water Database shows that most US tap water contains detectable levels of PFAS, microplastics, and disinfection byproducts. A quality filter can remove 95-99% of contaminants\n• VISUAL IDEA: Test tap water vs. filtered water with a TDS meter — show the number difference on screen. 'These are the dissolved solids you're drinking every day'"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "The Milk Additive Banned Everywhere But the US",
+    "title_es": "El Aditivo en la Leche Prohibido en Todo el Mundo Menos en EE.UU.",
+    "pillar": "regulation",
+    "hook_en": "Why is this milk additive banned worldwide?",
+    "hook_es": "¿Por qué este aditivo en la leche está prohibido en todo el mundo?",
+    "key_message": "rBGH/rBST is banned in many countries due to health concerns, but still used in US dairy.",
+    "visual_elements": [
+      "split-screen of milk cartons labeled 'USA' and 'Banned Countries'",
+      "close-up of rBGH/rBST label",
+      "graphic showing list of countries where rBGH/rBST is banned",
+      "animated graph showing increased cancer risk"
+    ],
+    "duration_seconds": 50,
+    "props_needed": [
+      "milk carton with visible label",
+      "graphics overlay"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • rBGH / rBST (Recombinant Bovine Growth Hormone): Dairy products (injected into cows to increase milk production) — Banned in: EU, Canada, Australia, Japan, Israel — Health concern: Increases IGF-1 levels in milk — linked to increased cancer risk\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Obesity Epidemic: How Deregulation Contributed",
+    "title_es": "Epidemia de Obesidad: Cómo Contribuyó la Desregulación",
+    "pillar": "regulation",
+    "hook_en": "Did you know US obesity rates have tripled?",
+    "hook_es": "¿Sabías que las tasas de obesidad en EE.UU. se han triplicado?",
+    "key_message": "Lack of strict food regulations contributes to rising obesity rates in the US.",
+    "visual_elements": [
+      "timeline animation showing obesity rates from 1960 to 2024",
+      "side-by-side comparison of food labels with and without certain additives",
+      "highlighted text of US vs EU regulations",
+      "presenter pointing to the increasing obesity graph"
+    ],
+    "duration_seconds": 55,
+    "props_needed": [
+      "printed food labels",
+      "timeline graphics"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • rBGH / rBST (Recombinant Bovine Growth Hormone): Dairy products (injected into cows to increase milk production) — Banned in: EU, Canada, Australia, Japan, Israel — Health concern: Increases IGF-1 levels in milk — linked to increased cancer risk\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

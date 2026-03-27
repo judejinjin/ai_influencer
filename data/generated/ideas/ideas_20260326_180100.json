@@ -1,0 +1,50 @@
+[
+  {
+    "title_en": "The Garlic Secret: Maximize Health Benefits",
+    "title_es": "El Secreto del Ajo: Maximiza Sus Beneficios",
+    "pillar": "deep-dive",
+    "hook_en": "Want to unlock garlic's superpowers?",
+    "hook_es": "¿Quieres liberar los superpoderes del ajo?",
+    "key_message": "Crush garlic and let it sit for 10 minutes to maximize the formation of allicin, which has potent antibacterial and antiviral properties.",
+    "visual_elements": [
+      "Close-up of garlic being crushed",
+      "Timer set to 10 minutes",
+      "Graphic of allicin molecule forming",
+      "Quick dish using garlic"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Garlic bulb",
+      "Garlic crusher",
+      "Timer or phone with timer app",
+      "Cutting board",
+      "Knife"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Garlic — Contains allicin — a compound with potent antibacterial and antiviral properties (Tip: Crush and let sit 10 minutes before cooking to maximize allicin formation)"
+  },
+  {
+    "title_en": "Garlic: A Health Boost in Every Clove",
+    "title_es": "Ajo: Un Impulso de Salud en Cada Diente",
+    "pillar": "deep-dive",
+    "hook_en": "How can one tiny clove make a big impact?",
+    "hook_es": "¿Cómo puede un pequeño diente tener un gran impacto?",
+    "key_message": "Garlic contains allicin, which boosts immunity and fights infections. Letting crushed garlic sit before cooking enhances these benefits.",
+    "visual_elements": [
+      "Whole garlic bulb splitting into cloves",
+      "Zoom in on crushed garlic",
+      "Animation of germs being zapped by allicin",
+      "Healthy dish with garlic being served"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Garlic bulb",
+      "Cutting board",
+      "Knife",
+      "Garlic crusher",
+      "Cooking pan"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Garlic — Contains allicin — a compound with potent antibacterial and antiviral properties (Tip: Crush and let sit 10 minutes before cooking to maximize allicin formation)"
+  }
+]

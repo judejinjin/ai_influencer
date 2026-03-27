@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Turmeric: Golden Spice with Superpowers",
+    "title_es": "Cúrcuma: La Especia Dorada con Superpoderes",
+    "pillar": "deep-dive",
+    "hook_en": "Watch this! Boost turmeric's power with a simple trick!",
+    "hook_es": "¡Mira esto! Potencia la cúrcuma con un truco simple!",
+    "key_message": "Pair turmeric with black pepper to increase curcumin absorption by 2000%.",
+    "visual_elements": [
+      "Close-up of turmeric powder",
+      "Adding black pepper to turmeric",
+      "Text overlay highlighting '2000% absorption boost'",
+      "Quick demo of making a turmeric latte"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Turmeric powder",
+      "Black pepper",
+      "Milk",
+      "Small saucepan"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Turmeric — Curcumin (active compound) has powerful anti-inflammatory properties (Tip: Pair with black pepper to increase absorption by 2000%)"
+  },
+  {
+    "title_en": "How to Choose the Best Turmeric at the Store",
+    "title_es": "Cómo Elegir la Mejor Cúrcuma en la Tienda",
+    "pillar": "deep-dive",
+    "hook_en": "Stop! Are you buying the best turmeric?",
+    "hook_es": "¡Alto! ¿Estás comprando la mejor cúrcuma?",
+    "key_message": "Choose turmeric with high curcumin content for maximum health benefits.",
+    "visual_elements": [
+      "Comparing turmeric powders in-store",
+      "Reading labels for curcumin content",
+      "Text overlay: 'Look for high curcumin'",
+      "Holding up organic vs. non-organic turmeric"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Different turmeric brands",
+      "Magnifying glass",
+      "Labels"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Turmeric — Curcumin (active compound) has powerful anti-inflammatory properties (Tip: Pair with black pepper to increase absorption by 2000%)"
+  }
+]

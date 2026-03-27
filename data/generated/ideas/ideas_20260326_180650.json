@@ -1,0 +1,45 @@
+[
+  {
+    "title_en": "Farm vs. Wild Salmon: The Color Truth",
+    "title_es": "Salmón de Granja vs. Salvaje: La Verdad del Color",
+    "pillar": "comparison",
+    "hook_en": "Why is your salmon pink? Let's find out!",
+    "hook_es": "¿Por qué tu salmón es rosa? ¡Descubrámoslo!",
+    "key_message": "Farm-raised salmon is dyed pink using synthetic astaxanthin, while wild salmon get their color naturally.",
+    "visual_elements": [
+      "Close-up of both types of salmon fillets side by side",
+      "Zoom in on a color chart used by salmon farms",
+      "Overlay text: 'Farmed vs. Wild Color'",
+      "Quick pan over a wild salmon swimming in clear water"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "salmon fillets",
+      "color chart printout"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Protein]:\n• HEALTHY: Wild-caught salmon (sockeye, king, coho — naturally fed on krill and smaller fish)\n• PROCESSED/CONVENTIONAL: Farm-raised salmon (crowded pens, antibiotics, artificial color added to feed — astaxanthin from petrochemicals)\n• KEY FACT: Farm-raised salmon is dyed pink via synthetic astaxanthin in their feed — without it the flesh is gray. Wild salmon gets its color naturally from eating krill. Farm-raised also has higher PCB and dioxin levels\n• VISUAL IDEA: Show a 'color chart' that salmon farms use to pick the exact shade of pink for their fish — 'they literally choose the color like paint swatches'"
+  },
+  {
+    "title_en": "The Real Cost of Farmed Salmon",
+    "title_es": "El Verdadero Costo del Salmón de Granja",
+    "pillar": "comparison",
+    "hook_en": "Farm-raised or Wild? Let's dive into the facts!",
+    "hook_es": "¿Salmón de granja o salvaje? ¡Vamos a los hechos!",
+    "key_message": "Farm-raised salmon contains higher levels of PCBs and dioxins, unlike wild-caught salmon.",
+    "visual_elements": [
+      "Split screen of farm-raised vs. wild salmon",
+      "Animated arrows pointing to 'PCBs' and 'Dioxins' on farmed salmon",
+      "Healthy wild salmon imagery",
+      "Overhead shot of salmon farming facility"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "two types of salmon",
+      "marker to highlight text",
+      "printed infographic"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Protein]:\n• HEALTHY: Wild-caught salmon (sockeye, king, coho — naturally fed on krill and smaller fish)\n• PROCESSED/CONVENTIONAL: Farm-raised salmon (crowded pens, antibiotics, artificial color added to feed — astaxanthin from petrochemicals)\n• KEY FACT: Farm-raised salmon is dyed pink via synthetic astaxanthin in their feed — without it the flesh is gray. Wild salmon gets its color naturally from eating krill. Farm-raised also has higher PCB and dioxin levels\n• VISUAL IDEA: Show a 'color chart' that salmon farms use to pick the exact shade of pink for their fish — 'they literally choose the color like paint swatches'"
+  }
+]

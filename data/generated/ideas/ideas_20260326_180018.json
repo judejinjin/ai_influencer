@@ -1,0 +1,45 @@
+[
+  {
+    "title_en": "Homemade Ranch vs. Bottled Ranch: What's in Your Dressing?",
+    "title_es": "Aderezo Ranch Casero vs. Embotellado: ¿Qué Hay en Tu Salsa?",
+    "pillar": "comparison",
+    "hook_en": "She dips a carrot stick into a jar labeled 'Homemade Ranch' and another into 'Bottled Ranch'.",
+    "hook_es": "Ella sumerge una zanahoria en un frasco etiquetado 'Ranch Casero' y otra en 'Ranch Embotellado'.",
+    "key_message": "Homemade ranch is healthier and free of industrial additives like calcium disodium EDTA.",
+    "visual_elements": [
+      "Close-up of dipping carrot sticks",
+      "Ingredients list for homemade ranch on screen",
+      "Ingredients list for bottled ranch on screen",
+      "Zoom on calcium disodium EDTA in bottled ranch"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "carrot sticks",
+      "jar labeled 'Homemade Ranch'",
+      "jar labeled 'Bottled Ranch'"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Homemade ranch (greek yogurt, herbs, garlic) vs. PROCESSED: Bottled ranch dressing (soybean oil, MSG, sodium benzoate, calcium disodium EDTA) — Commercial ranch contains calcium disodium EDTA — an industrial chelating agent"
+  },
+  {
+    "title_en": "Greek Yogurt Ranch vs. Store-Bought: Taste Test!",
+    "title_es": "Aderezo de Yogur Griego vs. Comprado en Tienda: ¡Prueba de Sabor!",
+    "pillar": "comparison",
+    "hook_en": "She takes a bite of a salad with homemade ranch, then a bite with store-bought.",
+    "hook_es": "Ella toma un bocado de ensalada con aderezo casero, luego uno con aderezo de tienda.",
+    "key_message": "Discover how homemade ranch with greek yogurt is a healthier, tastier option than store-bought.",
+    "visual_elements": [
+      "Side-by-side salad plates, one with homemade dressing, one with store-bought",
+      "Her reaction to taste of each",
+      "Overlay text comparing health benefits"
+    ],
+    "duration_seconds": 50,
+    "props_needed": [
+      "salad plates",
+      "homemade greek yogurt ranch",
+      "store-bought ranch"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Homemade ranch (greek yogurt, herbs, garlic) vs. PROCESSED: Bottled ranch dressing (soybean oil, MSG, sodium benzoate, calcium disodium EDTA) — Commercial ranch contains calcium disodium EDTA — an industrial chelating agent"
+  }
+]

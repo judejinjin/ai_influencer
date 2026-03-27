@@ -1,0 +1,42 @@
+[
+  {
+    "title_en": "BVO: The 65-Year Delay in Food Safety",
+    "title_es": "BVO: El retraso de 65 años en la seguridad alimentaria",
+    "pillar": "regulation",
+    "hook_en": "She holds up a soda bottle: 'This ingredient is banned in Europe!'",
+    "hook_es": "Ella sostiene una botella de refresco: '¡Este ingrediente está prohibido en Europa!'",
+    "key_message": "The FDA is finally banning BVO in 2023, decades after it was banned in the EU and Japan, highlighting significant delays in US food safety regulations.",
+    "visual_elements": [
+      "soda_bottle",
+      "graphic_overlay_of_EU_Japan_flags",
+      "timeline_showing_1958_GRAS_status",
+      "flash_of_2023_FDA_proposal"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "soda_bottle"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 2023: FDA proposes ban on brominated vegetable oil (BVO) — Impact: Was GRAS since 1958 — took 65 years to act; banned in EU/Japan for decades\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "US Obesity: Deregulation’s Hidden Impact",
+    "title_es": "Obesidad en EE. UU.: El impacto oculto de la desregulación",
+    "pillar": "regulation",
+    "hook_en": "She eats a donut: 'What's really fueling this obesity epidemic?'",
+    "hook_es": "Ella come una dona: '¿Qué está alimentando realmente esta epidemia de obesidad?'",
+    "key_message": "US deregulation has allowed harmful additives to persist in foods, paralleling the alarming rise in obesity rates over decades.",
+    "visual_elements": [
+      "eating_donut",
+      "animated_graph_of_obesity_rates_1960_to_2024",
+      "overlay_of_USA_flag",
+      "scene_of_empty_FDA_office"
+    ],
+    "duration_seconds": 60,
+    "props_needed": [
+      "donut"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 2023: FDA proposes ban on brominated vegetable oil (BVO) — Impact: Was GRAS since 1958 — took 65 years to act; banned in EU/Japan for decades\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

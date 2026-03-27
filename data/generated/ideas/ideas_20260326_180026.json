@@ -1,0 +1,48 @@
+[
+  {
+    "title_en": "Popcorn Showdown: Air-Popped vs. Microwave",
+    "title_es": "Batalla de Palomitas: Aire vs. Microondas",
+    "pillar": "comparison",
+    "hook_en": "What's really in your popcorn? Let's find out!",
+    "hook_es": "¿Qué hay realmente en tus palomitas? ¡Vamos a descubrirlo!",
+    "key_message": "Microwave popcorn may contain harmful chemicals, while air-popped is a safer, healthier choice.",
+    "visual_elements": [
+      "Split screen with a bowl of air-popped popcorn on one side and a bag of microwave popcorn on the other",
+      "Close-up shot of the popcorn popping process for each method",
+      "Text overlay highlighting 'PFAS chemicals' with an arrow pointing to the microwave popcorn bag",
+      "Final scene with the creator holding a bowl of air-popped popcorn, smiling"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "air-popper",
+      "microwave popcorn bag",
+      "bowl",
+      "real butter"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• HEALTHY: Air-popped popcorn with real butter vs. PROCESSED: Microwave popcorn (diacetyl, PFAS chemicals in bag lining) — Microwave popcorn bags are lined with PFAS (forever chemicals) that leach into food"
+  },
+  {
+    "title_en": "DIY Popcorn: Taste Without the Toxins",
+    "title_es": "Palomitas Caseras: Sabor sin Tóxicos",
+    "pillar": "comparison",
+    "hook_en": "Want better popcorn? Ditch the microwave!",
+    "hook_es": "¿Quieres mejores palomitas? ¡Olvida el microondas!",
+    "key_message": "Making popcorn at home with real butter is a natural, toxin-free alternative to microwave popcorn.",
+    "visual_elements": [
+      "Quick cuts of the creator measuring popcorn kernels and melting real butter",
+      "Side-by-side shot of a microwave popcorn bag and a bowl of freshly air-popped popcorn",
+      "Animated text listing 'Diacetyl' and other chemicals with a red cross over them",
+      "Final shot of the creator eating air-popped popcorn with a thumbs-up"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "popcorn kernels",
+      "air-popper",
+      "real butter",
+      "microwave popcorn bag"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• HEALTHY: Air-popped popcorn with real butter vs. PROCESSED: Microwave popcorn (diacetyl, PFAS chemicals in bag lining) — Microwave popcorn bags are lined with PFAS (forever chemicals) that leach into food"
+  }
+]

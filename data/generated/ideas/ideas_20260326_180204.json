@@ -1,0 +1,48 @@
+[
+  {
+    "title_en": "Chia Seeds: Tiny Powerhouses Unleashed!",
+    "title_es": "Semillas de Chía: ¡Pequeñas Potencias Desatadas!",
+    "pillar": "deep-dive",
+    "hook_en": "Watch how these tiny seeds transform with water!",
+    "hook_es": "¡Mira cómo estas pequeñas semillas se transforman con agua!",
+    "key_message": "Chia seeds absorb 12x their weight in water, providing hydration and making nutrients more bioavailable.",
+    "visual_elements": [
+      "close-up of dry chia seeds",
+      "pouring water over seeds",
+      "time-lapse of seeds swelling",
+      "gel consistency demonstration"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "chia seeds",
+      "glass of water",
+      "clear bowl"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Chia Seeds — Absorb 12x their weight in water — great for hydration and satiety (Tip: Soak for 15+ minutes to form a gel — makes nutrients more bioavailable)"
+  },
+  {
+    "title_en": "Maximize Chia Seed Benefits in 3 Easy Steps!",
+    "title_es": "¡Maximiza los Beneficios de las Semillas de Chía en 3 Pasos Fáciles!",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know chia seeds can boost hydration?",
+    "hook_es": "¿Sabías que las semillas de chía pueden mejorar la hidratación?",
+    "key_message": "Soaking chia seeds for 15+ minutes boosts their nutritional value and promotes satiety.",
+    "visual_elements": [
+      "spoonful of chia seeds",
+      "step-by-step soaking process",
+      "gel transformation",
+      "adding gel to smoothie"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "chia seeds",
+      "water",
+      "clear container",
+      "spoon",
+      "blender for smoothie"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Chia Seeds — Absorb 12x their weight in water — great for hydration and satiety (Tip: Soak for 15+ minutes to form a gel — makes nutrients more bioavailable)"
+  }
+]

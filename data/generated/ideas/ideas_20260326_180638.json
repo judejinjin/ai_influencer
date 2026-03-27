@@ -1,0 +1,48 @@
+[
+  {
+    "title_en": "Organic vs Non-Organic Fruit: The Dirty Truth",
+    "title_es": "Fruta Orgánica vs No Orgánica: La Sucia Verdad",
+    "pillar": "comparison",
+    "hook_en": "Watch this apple's magic trick! 🍎",
+    "hook_es": "¡Mira el truco de magia de esta manzana! 🍎",
+    "key_message": "Organic fruit is free from synthetic pesticides, unlike conventional fruit, which can carry multiple residues.",
+    "visual_elements": [
+      "split_screen_with_organic_and_conventional_apples",
+      "closeup_of_water_beading_off_conventional_apple",
+      "visual_comparison_of_clean_water_vs_foggy_water",
+      "visual_of_pesticide_residue_list_from_dirty_dozen"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "organic_apple",
+      "conventional_apple",
+      "water_bottle",
+      "cutting_board"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Produce]:\n• HEALTHY: Organic fruits (especially the Dirty Dozen: strawberries, apples, grapes, peaches, etc.)\n• PROCESSED/CONVENTIONAL: Conventionally grown fruits sprayed with synthetic pesticides, fungicides, and wax coatings\n• KEY FACT: The EWG Dirty Dozen shows that conventional strawberries can contain residues of 20+ different pesticides. Organic farming prohibits synthetic pesticides and has been linked to higher antioxidant levels\n• VISUAL IDEA: Wash a conventional apple — show how water beads off the wax coating. 'That shiny coating isn't natural'"
+  },
+  {
+    "title_en": "The Secret of Shiny Peaches 🍑",
+    "title_es": "El Secreto de los Duraznos Brillantes 🍑",
+    "pillar": "comparison",
+    "hook_en": "Why is this peach so shiny? 🤔",
+    "hook_es": "¿Por qué este durazno brilla tanto? 🤔",
+    "key_message": "Conventional peaches are often coated with wax and pesticides; organic ones aren't.",
+    "visual_elements": [
+      "side_by_side_peaches_organic_vs_conventional",
+      "visual_demonstration_of_wax_coating_removal",
+      "highlighting_labels_or_wax_paper",
+      "comparison_shot_of_peach_colors_and_textures"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "organic_peach",
+      "conventional_peach",
+      "knife",
+      "wax_paper"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "DAILY STAPLE COMPARISON [Produce]:\n• HEALTHY: Organic fruits (especially the Dirty Dozen: strawberries, apples, grapes, peaches, etc.)\n• PROCESSED/CONVENTIONAL: Conventionally grown fruits sprayed with synthetic pesticides, fungicides, and wax coatings\n• KEY FACT: The EWG Dirty Dozen shows that conventional strawberries can contain residues of 20+ different pesticides. Organic farming prohibits synthetic pesticides and has been linked to higher antioxidant levels\n• VISUAL IDEA: Wash a conventional apple — show how water beads off the wax coating. 'That shiny coating isn't natural'"
+  }
+]

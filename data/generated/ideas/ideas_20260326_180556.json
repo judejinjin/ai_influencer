@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "Red Dye 3: Why Did It Take 35 Years?",
+    "title_es": "Colorante Rojo 3: ¿Por qué tomó 35 años?",
+    "pillar": "regulation",
+    "hook_en": "Watch out! This candy could be toxic!",
+    "hook_es": "¡Cuidado! ¡Este dulce podría ser tóxico!",
+    "key_message": "Red Dye 3, banned in cosmetics since 1990, is finally banned in food by 2025 due to its carcinogenic properties.",
+    "visual_elements": [
+      "cut to close-up of her holding a candy with vibrant red coloring",
+      "split screen showing a timeline from 1990 to 2025",
+      "text overlay: '1990: Banned in cosmetics'",
+      "text overlay: '2025: Finally banned in food'"
+    ],
+    "duration_seconds": 50,
+    "props_needed": [
+      "candy with Red Dye 3",
+      "timeline graphic"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 2025: FDA finalizes ban on Red Dye 3 in food — Impact: Known carcinogen since 1990 — took 35 years to ban in food (was banned in cosmetics in 1990)\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Why DEREGULATION = More Obesity",
+    "title_es": "Por qué DESREGULACIÓN = Más Obesidad",
+    "pillar": "regulation",
+    "hook_en": "Did you know? Deregulation might be making us obese!",
+    "hook_es": "¿Sabías? ¡La desregulación podría hacernos obesos!",
+    "key_message": "US deregulation has contributed to rising obesity rates by allowing more unhealthy additives in processed foods.",
+    "visual_elements": [
+      "start with her pointing to a chart of obesity rates from 1960 to 2024",
+      "highlight key points where obesity spikes align with deregulation periods",
+      "overlay text: 'More additives, more obesity'",
+      "pan over processed food packages with ingredient lists"
+    ],
+    "duration_seconds": 55,
+    "props_needed": [
+      "obesity rate chart",
+      "processed food packages"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 2025: FDA finalizes ban on Red Dye 3 in food — Impact: Known carcinogen since 1990 — took 35 years to ban in food (was banned in cosmetics in 1990)\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

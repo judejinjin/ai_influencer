@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "The Sugar Swap That Changed Everything",
+    "title_es": "El Cambio de Azúcar que Lo Cambió Todo",
+    "pillar": "regulation",
+    "hook_en": "Did you know the 1980 guidelines replaced fat with sugar?",
+    "hook_es": "¿Sabías que las guías de 1980 reemplazaron la grasa con azúcar?",
+    "key_message": "The 1980 US Dietary Guidelines promoted a low-fat diet, leading to sugar and additive replacements that fueled obesity.",
+    "visual_elements": [
+      "1980 guidelines document cover",
+      "comparison of labels: low-fat vs. full-fat",
+      "graph showing obesity rates from 1980 onwards",
+      "sugar and additives being added to processed food"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "old guideline document printout",
+      "food labels",
+      "sugar and additive packets",
+      "chart/graph"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1980: First US Dietary Guidelines issued — Impact: Promoted low-fat diet; food industry began replacing fat with sugar and additives\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Why Are Certain Additives Banned Abroad?",
+    "title_es": "¿Por Qué Se Prohíben Aditivos en Otros Países?",
+    "pillar": "regulation",
+    "hook_en": "These additives are banned globally, but not in the US!",
+    "hook_es": "¡Estos aditivos están prohibidos en todo el mundo, pero no en EE.UU.!",
+    "key_message": "Some additives banned in other countries are still permitted in the US, impacting health and obesity rates.",
+    "visual_elements": [
+      "list of banned additives in other countries",
+      "comparison of food labels: US vs. EU",
+      "animation of world map highlighting where additives are banned",
+      "visual of health effects linked to additives"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "world map",
+      "food labels from US and EU",
+      "printouts of banned additives list"
+    ],
+    "trending_relevance": "none",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1980: First US Dietary Guidelines issued — Impact: Promoted low-fat diet; food industry began replacing fat with sugar and additives\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

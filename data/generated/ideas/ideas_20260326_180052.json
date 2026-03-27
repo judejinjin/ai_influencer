@@ -1,0 +1,47 @@
+[
+  {
+    "title_en": "Avocado Secrets: More Than Just Guac!",
+    "title_es": "Secretos del Aguacate: ¡Más que solo Guacamole!",
+    "pillar": "deep-dive",
+    "hook_en": "Ever wondered why avocados are a superfood?",
+    "hook_es": "¿Te has preguntado por qué el aguacate es un superalimento?",
+    "key_message": "Avocados are packed with over 20 vitamins and minerals, plus healthy fats. Discover how to enhance their nutrition even more!",
+    "visual_elements": [
+      "close-up of avocado being sliced",
+      "nutrient breakdown on screen",
+      "demonstration of squeezing lime on avocado"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "avocado",
+      "lime",
+      "knife",
+      "cutting board"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Avocado — Contains 20+ vitamins and minerals, healthy monounsaturated fats (Tip: Add a squeeze of lime to slow oxidation and boost vitamin C pairing)"
+  },
+  {
+    "title_en": "Avocado: Your Heart's Best Friend",
+    "title_es": "Aguacate: El mejor amigo de tu corazón",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know avocados love your heart?",
+    "hook_es": "¿Sabías que los aguacates aman a tu corazón?",
+    "key_message": "Avocados contain healthy monounsaturated fats that support heart health. Learn to prep them for maximum benefit!",
+    "visual_elements": [
+      "heart emoji over avocado",
+      "adding lime juice to sliced avocado",
+      "quick avocado toast assembly"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "avocado",
+      "lime",
+      "knife",
+      "cutting board",
+      "bread"
+    ],
+    "trending_relevance": "low",
+    "_source_food_context": "• INGREDIENT: Avocado — Contains 20+ vitamins and minerals, healthy monounsaturated fats (Tip: Add a squeeze of lime to slow oxidation and boost vitamin C pairing)"
+  }
+]

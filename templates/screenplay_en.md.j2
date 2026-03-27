@@ -1,0 +1,42 @@
+# 🎬 {{ title }}
+
+**Pillar**: {{ pillar }}
+**Duration**: {{ duration }} seconds
+**Platform**: {{ platform }}
+
+---
+
+## Props Needed
+{% for prop in props %}
+- {{ prop }}
+{% endfor %}
+
+## Shooting Notes
+{{ shooting_notes }}
+
+---
+
+{% for scene in scenes %}
+### [{{ scene.time_code }}] {{ scene.section }}
+
+**VISUAL**: {{ scene.visual }}
+
+**VOICEOVER** _({{ scene.tone }})_:
+> {{ scene.dialogue }}
+
+{% if scene.on_screen_text %}
+**ON-SCREEN TEXT**: {{ scene.on_screen_text }}
+{% endif %}
+
+{% if scene.sound %}
+**SOUND/MUSIC**: {{ scene.sound }}
+{% endif %}
+
+---
+{% endfor %}
+
+## Hashtags
+{{ hashtags }}
+
+## Music
+{{ music }}

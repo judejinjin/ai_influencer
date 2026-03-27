@@ -1,0 +1,46 @@
+[
+  {
+    "title_en": "Sugar: The Sweet Obsession Fueled by Regulation",
+    "title_es": "Azúcar: La Obsesión Dulce Impulsada por la Regulación",
+    "pillar": "regulation",
+    "hook_en": "Did you know the low-fat craze made us love sugar?",
+    "hook_es": "¿Sabías que la moda baja en grasa nos hizo amar el azúcar?",
+    "key_message": "In 1977, regulations shifted focus to low-fat diets, leading to increased sugar use and rising obesity rates.",
+    "visual_elements": [
+      "split screen of low-fat vs. high-sugar food labels",
+      "graph showing rising obesity rates from 1960-2024",
+      "old footage of 1977 McGovern Report",
+      "overlay text highlighting 'added sugars'"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "low-fat yogurt",
+      "sugar packets",
+      "laptop with graph"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1977: McGovern Report recommends reducing sugar/fat in American diet — Impact: Food industry lobbying weakened final guidelines — focus shifted to low-fat (which led to added sugar)\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Hidden Dangers: How Deregulation Fuels Obesity",
+    "title_es": "Peligros Ocultos: Cómo la Desregulación Alimenta la Obesidad",
+    "pillar": "regulation",
+    "hook_en": "What if I told you some food additives are banned abroad but not here?",
+    "hook_es": "¿Y si te dijera que algunos aditivos están prohibidos en otros países pero no aquí?",
+    "key_message": "Lack of regulation on certain additives in the US contributes to the obesity epidemic, unlike stricter guidelines in other countries.",
+    "visual_elements": [
+      "comparison of food labels from US vs. EU",
+      "close-up of common snacks with banned additives",
+      "highlight on obesity graph with rate increases",
+      "overlay text with 'banned in EU!'"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "variety of snack packages",
+      "printed labels from EU snacks",
+      "marker pen"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1977: McGovern Report recommends reducing sugar/fat in American diet — Impact: Food industry lobbying weakened final guidelines — focus shifted to low-fat (which led to added sugar)\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "title_en": "Hidden Dangers: US Food Additives Exposed!",
+    "title_es": "¡Peligros Ocultos: Aditivos Alimenticios en EE. UU. Expuestos!",
+    "pillar": "regulation",
+    "hook_en": "Did you know this harmful additive is banned in Europe but not in the US?",
+    "hook_es": "¿Sabías que este aditivo dañino está prohibido en Europa pero no en EE. UU.?",
+    "key_message": "Many food additives banned in other countries are still allowed in the US, posing potential health risks.",
+    "visual_elements": [
+      "Close-up of a food label with highlighted additives",
+      "Split screen: US vs. EU food label comparison",
+      "Chart showing increase in US obesity rates over time"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Packaged food with visible label",
+      "Markers for highlighting"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1938: Federal Food, Drug, and Cosmetic Act — FDA gains enforcement power — Impact: Required safety evidence for new drugs but food additives still loosely regulated\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "Why US Food Regulations Need an Update!",
+    "title_es": "¡Por Qué las Regulaciones Alimentarias de EE. UU. Necesitan una Actualización!",
+    "pillar": "regulation",
+    "hook_en": "US food laws are stuck in the past. Here's why it matters...",
+    "hook_es": "Las leyes alimentarias de EE. UU. están atrapadas en el pasado. Aquí te explico por qué importa...",
+    "key_message": "The Federal Food, Drug, and Cosmetic Act of 1938 needs modernization to better protect consumers.",
+    "visual_elements": [
+      "Old black-and-white footage simulating 1930s America",
+      "List of outdated laws on a chalkboard",
+      "Modern kitchen setup with fresh ingredients"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "Chalkboard",
+      "Chalk",
+      "Variety of fresh fruits and vegetables"
+    ],
+    "trending_relevance": "low",
+    "_source_regulation_context": "\nKEY REGULATORY EVENTS:\n  • 1938: Federal Food, Drug, and Cosmetic Act — FDA gains enforcement power — Impact: Required safety evidence for new drugs but food additives still loosely regulated\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

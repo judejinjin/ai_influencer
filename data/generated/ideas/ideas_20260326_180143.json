@@ -1,0 +1,50 @@
+[
+  {
+    "title_en": "Lemon Love: How to Boost Iron Absorption",
+    "title_es": "Amor por el Limón: Mejora tu Absorción de Hierro",
+    "pillar": "deep-dive",
+    "hook_en": "Did you know lemons can supercharge your iron intake?",
+    "hook_es": "¿Sabías que los limones pueden potenciar tu ingesta de hierro?",
+    "key_message": "Squeezing lemon juice on spinach or beans can increase iron absorption by up to 6 times.",
+    "visual_elements": [
+      "close-up of a juicy lemon being sliced",
+      "demonstration of squeezing lemon juice over spinach salad",
+      "animated text overlay showing '6x more iron!' as lemon juice drips",
+      "split-screen before-and-after graphic of iron absorption levels"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "lemon",
+      "spinach",
+      "cutting board",
+      "knife",
+      "bowl"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• INGREDIENT: Lemon — High in vitamin C and citric acid — boosts iron absorption from plant foods (Tip: Squeeze lemon on spinach/beans to increase iron absorption by up to 6x)"
+  },
+  {
+    "title_en": "The Power of Vitamin C: Lemon Edition",
+    "title_es": "El Poder de la Vitamina C: Edición Limón",
+    "pillar": "deep-dive",
+    "hook_en": "Want to get the most out of your meals? Meet the mighty lemon!",
+    "hook_es": "¿Quieres aprovechar al máximo tus comidas? ¡Conoce al poderoso limón!",
+    "key_message": "Lemon's vitamin C content not only boosts immunity but also enhances iron absorption from plant foods.",
+    "visual_elements": [
+      "a vibrant lemon being zested and juiced",
+      "overlay of lemons with animated vitamin C molecules",
+      "demonstration of adding lemon juice to a bean dish",
+      "text overlay 'Boost Your Meal Power!' with energetic graphics"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "lemon",
+      "grater",
+      "beans",
+      "cutting board",
+      "knife"
+    ],
+    "trending_relevance": "medium",
+    "_source_food_context": "• INGREDIENT: Lemon — High in vitamin C and citric acid — boosts iron absorption from plant foods (Tip: Squeeze lemon on spinach/beans to increase iron absorption by up to 6x)"
+  }
+]

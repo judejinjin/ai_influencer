@@ -1,0 +1,44 @@
+[
+  {
+    "title_en": "Why the US Loves Yellow 5 & 6!",
+    "title_es": "¡Por qué a EE.UU. le encantan los colores amarillo 5 y 6!",
+    "pillar": "regulation",
+    "hook_en": "She bites a candy and gasps, 'Did you know?'",
+    "hook_es": "Ella muerde un dulce y exclama, '¿Sabías?'",
+    "key_message": "Yellow 5 and 6 are banned in several countries for causing hyperactivity in kids, but they're still in US foods.",
+    "visual_elements": [
+      "Close-up on bright yellow candies",
+      "Quick cut to a map highlighting Norway, Finland, and Austria",
+      "Overlaid warning labels used in the EU",
+      "Split screen showing candy with and without additives"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "yellow candies",
+      "world map printout"
+    ],
+    "trending_relevance": "medium",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Yellow 5 (Tartrazine) & Yellow 6 (Sunset Yellow): Candy, cereals, sodas, sports drinks, mac & cheese — Banned in: Norway, Finland (restricted), Austria — Health concern: EU requires warning labels — 'may have adverse effect on activity and attention in children'\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  },
+  {
+    "title_en": "US Obesity: What's Really Fueling the Epidemic?",
+    "title_es": "Obesidad en EE.UU.: ¿Qué está alimentando la epidemia?",
+    "pillar": "regulation",
+    "hook_en": "She holds a fast-food bag, 'Guess what changed since 1960?'",
+    "hook_es": "Ella sostiene una bolsa de comida rápida, '¿Adivina qué cambió desde 1960?'",
+    "key_message": "Deregulations have led to an explosion in obesity rates, linking ultra-processed foods to rising health issues.",
+    "visual_elements": [
+      "Timeline chart showing rising obesity rates",
+      "Fast motion video of her throwing processed food items into a bin",
+      "Text overlay of deregulation stats",
+      "Before and after shot with a 1960s dinner and a modern fast food meal"
+    ],
+    "duration_seconds": 45,
+    "props_needed": [
+      "fast-food bag",
+      "printed timeline chart"
+    ],
+    "trending_relevance": "high",
+    "_source_regulation_context": "ADDITIVES BANNED IN OTHER COUNTRIES BUT LEGAL IN US:\n  • Yellow 5 (Tartrazine) & Yellow 6 (Sunset Yellow): Candy, cereals, sodas, sports drinks, mac & cheese — Banned in: Norway, Finland (restricted), Austria — Health concern: EU requires warning labels — 'may have adverse effect on activity and attention in children'\n\nUS OBESITY RATES OVER TIME:\n  • 1960: 13.4% (adults), 5.0% (children)\n  • 1980: 15.0% (adults), 5.5% (children)\n  • 1994: 22.5% (adults), 10.0% (children)\n  • 2000: 30.5% (adults), 13.9% (children)\n  • 2010: 35.7% (adults), 16.9% (children)\n  • 2016: 39.8% (adults), 18.5% (children)\n  • 2020: 41.9% (adults), 19.7% (children)\n  • 2024: 43.0% (adults), 21.0% (children)"
+  }
+]

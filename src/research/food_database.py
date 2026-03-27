@@ -1,0 +1,312 @@
+"""
+Provides curated food comparison data and healthy ingredient facts.
+Loads from data/food_facts.json and offers lookup/random selection.
+"""
+import json
+import random
+from src.config import DATA_DIR
+
+FOOD_FACTS_PATH = DATA_DIR / "food_facts.json"
+DAILY_STAPLES_PATH = DATA_DIR / "daily_staples.json"
+
+
+def load_food_facts() -> list[dict]:
+    """Load the full food facts database."""
+    if not FOOD_FACTS_PATH.exists():
+        facts = _get_default_food_facts()
+        # Write defaults to disk for future use
+        FOOD_FACTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        FOOD_FACTS_PATH.write_text(
+            json.dumps(facts, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+        return facts
+    return json.loads(FOOD_FACTS_PATH.read_text(encoding="utf-8"))
+
+
+def get_random_comparisons(count: int = 3) -> list[dict]:
+    """Return random healthy vs. processed food comparisons."""
+    facts = load_food_facts()
+    comparisons = [f for f in facts if f.get("type") == "comparison"]
+    return random.sample(comparisons, min(count, len(comparisons)))
+
+
+def get_random_deep_dives(count: int = 3) -> list[dict]:
+    """Return random single-ingredient deep dive topics."""
+    facts = load_food_facts()
+    deep_dives = [f for f in facts if f.get("type") == "deep-dive"]
+    return random.sample(deep_dives, min(count, len(deep_dives)))
+
+
+def get_all_comparisons() -> list[dict]:
+    """Return ALL food comparison entries."""
+    facts = load_food_facts()
+    return [f for f in facts if f.get("type") == "comparison"]
+
+
+def get_all_deep_dives() -> list[dict]:
+    """Return ALL deep-dive ingredient entries."""
+    facts = load_food_facts()
+    return [f for f in facts if f.get("type") == "deep-dive"]
+
+
+def load_daily_staples() -> list[dict]:
+    """Load the daily staples topic list from data/daily_staples.json."""
+    if not DAILY_STAPLES_PATH.exists():
+        return []
+    return json.loads(DAILY_STAPLES_PATH.read_text(encoding="utf-8"))
+
+
+def get_all_staples() -> list[dict]:
+    """Return ALL daily staple entries."""
+    return load_daily_staples()
+
+
+def format_for_prompt(facts: list[dict]) -> str:
+    """Format food facts into a string suitable for LLM prompt injection."""
+    lines = []
+    for f in facts:
+        if f.get("type") == "comparison":
+            lines.append(
+                f"• HEALTHY: {f['healthy_option']} vs. "
+                f"PROCESSED: {f['processed_option']} — {f['key_fact']}"
+            )
+        elif f.get("type") == "deep-dive":
+            lines.append(
+                f"• INGREDIENT: {f['ingredient']} — {f['key_fact']} "
+                f"(Tip: {f['nutrition_tip']})"
+            )
+    return "\n".join(lines)
+
+
+def format_staple_for_prompt(staple: dict) -> str:
+    """Format a single daily staple topic into a prompt string."""
+    return (
+        f"DAILY STAPLE COMPARISON [{staple.get('category', '')}]:\n"
+        f"• HEALTHY: {staple['healthy_option']}\n"
+        f"• PROCESSED/CONVENTIONAL: {staple['processed_option']}\n"
+        f"• KEY FACT: {staple['key_fact']}\n"
+        f"• VISUAL IDEA: {staple['visual_idea']}"
+    )
+
+
+def _get_default_food_facts() -> list[dict]:
+    """Hardcoded seed data — written to disk on first run."""
+    return [
+        {
+            "type": "comparison",
+            "healthy_option": "Fresh homemade salsa (tomatoes, onion, cilantro, lime)",
+            "processed_option": "Store-bought salsa (high fructose corn syrup, artificial colors)",
+            "key_fact": "Store-bought salsa can contain up to 4g added sugar per serving",
+            "visual_idea": "Side-by-side ingredient lists — 5 ingredients vs. 25",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Steel-cut oats with fresh berries",
+            "processed_option": "Instant flavored oatmeal packets",
+            "key_fact": "Instant packets contain up to 12g added sugar and artificial flavors",
+            "visual_idea": "Pour packets side by side, read ingredients aloud",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Homemade granola (oats, nuts, honey)",
+            "processed_option": "Store-bought granola bars (HFCS, soy lecithin, TBHQ)",
+            "key_fact": "Many granola bars have more sugar than a candy bar",
+            "visual_idea": "Stack sugar cubes next to each product to visualize",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Fresh-squeezed orange juice",
+            "processed_option": "Commercial OJ from concentrate with added flavors",
+            "key_fact": "Commercial OJ sits in tanks for up to a year — flavor packs are added back",
+            "visual_idea": "Squeeze real orange vs. pour from carton, compare color/taste",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Homemade chicken broth (chicken, vegetables, herbs)",
+            "processed_option": "Bouillon cubes (MSG, sodium, artificial flavors)",
+            "key_fact": "A single bouillon cube can contain 900mg sodium — nearly half daily limit",
+            "visual_idea": "Dissolve cube in water vs. pour homemade broth, compare clarity",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Real butter (cream, salt)",
+            "processed_option": "Margarine (vegetable oils, emulsifiers, artificial flavors)",
+            "key_fact": "Margarine was originally created as a cheap substitute and contains industrial emulsifiers",
+            "visual_idea": "Read both ingredient lists — 2 vs. 15 ingredients",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Homemade peanut butter (peanuts, salt)",
+            "processed_option": "Commercial peanut butter (hydrogenated oils, sugar, mono-diglycerides)",
+            "key_fact": "Many commercial PBs contain hydrogenated oils (trans fats) and added sugar",
+            "visual_idea": "Flip jars upside down — natural separates, commercial stays solid",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Greek yogurt with fresh fruit",
+            "processed_option": "Flavored yogurt cups (sugar, artificial colors, carrageenan)",
+            "key_fact": "Flavored yogurts can have 20-25g sugar per serving — as much as a donut",
+            "visual_idea": "Measure out sugar from yogurt cup into a bowl to shock viewers",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Homemade lemonade (lemons, water, raw honey)",
+            "processed_option": "Commercial lemonade (HFCS, citric acid, yellow 5)",
+            "key_fact": "Commercial lemonade often contains zero actual lemon juice",
+            "visual_idea": "Squeeze real lemons vs. read ingredients on bottle — 'where are the lemons?'",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Dark chocolate (70%+ cacao, cocoa butter)",
+            "processed_option": "Milk chocolate candy bars (sugar, PGPR, TBHQ, artificial vanilla)",
+            "key_fact": "TBHQ is a petroleum-derived preservative banned in some countries",
+            "visual_idea": "Break both open — compare color, read ingredients side by side",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Whole wheat sourdough bread (flour, water, salt, starter)",
+            "processed_option": "Commercial white bread (20+ ingredients including azodicarbonamide)",
+            "key_fact": "Azodicarbonamide — used in bread AND yoga mats — is banned in the EU",
+            "visual_idea": "Hold bread next to a yoga mat — 'same ingredient in both'",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Frozen whole fruits for smoothies",
+            "processed_option": "Bottled smoothies (sugar, concentrates, gums, natural flavors)",
+            "key_fact": "Bottled smoothies can contain 40-60g sugar — more than a can of soda",
+            "visual_idea": "Pour sugar equivalent into a glass next to the bottled smoothie",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Homemade ranch (greek yogurt, herbs, garlic)",
+            "processed_option": "Bottled ranch dressing (soybean oil, MSG, sodium benzoate, calcium disodium EDTA)",
+            "key_fact": "Commercial ranch contains calcium disodium EDTA — an industrial chelating agent",
+            "visual_idea": "Make fresh ranch in 60 seconds vs. read the 25-ingredient label",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Air-popped popcorn with real butter",
+            "processed_option": "Microwave popcorn (diacetyl, PFAS chemicals in bag lining)",
+            "key_fact": "Microwave popcorn bags are lined with PFAS (forever chemicals) that leach into food",
+            "visual_idea": "Show the shiny bag lining — 'this coating gets into your food'",
+        },
+        {
+            "type": "comparison",
+            "healthy_option": "Homemade tomato sauce (tomatoes, garlic, basil, olive oil)",
+            "processed_option": "Jarred pasta sauce (added sugar, soybean oil, natural flavors)",
+            "key_fact": "Some jarred sauces have more sugar per serving than chocolate cookies",
+            "visual_idea": "Measure hidden sugar from sauce jar into a spoon",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Turmeric",
+            "key_fact": "Curcumin (active compound) has powerful anti-inflammatory properties",
+            "nutrition_tip": "Pair with black pepper to increase absorption by 2000%",
+            "visual_idea": "Sprinkle turmeric + black pepper into a golden milk recipe",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Avocado",
+            "key_fact": "Contains 20+ vitamins and minerals, healthy monounsaturated fats",
+            "nutrition_tip": "Add a squeeze of lime to slow oxidation and boost vitamin C pairing",
+            "visual_idea": "Cut open a perfect avocado, show ripeness test trick",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Garlic",
+            "key_fact": "Contains allicin — a compound with potent antibacterial and antiviral properties",
+            "nutrition_tip": "Crush and let sit 10 minutes before cooking to maximize allicin formation",
+            "visual_idea": "Crush garlic, set timer, then cook — explain the science while waiting",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Blueberries",
+            "key_fact": "Among the highest antioxidant content of any common fruit (ORAC score)",
+            "nutrition_tip": "Frozen blueberries retain nearly all nutrients and are cheaper year-round",
+            "visual_idea": "Fresh vs. frozen comparison — 'frozen is just as good!'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Sweet Potato",
+            "key_fact": "Rich in beta-carotene, fiber, and potassium — a true superfood",
+            "nutrition_tip": "Eat with a small amount of fat (olive oil) to boost beta-carotene absorption by 6x",
+            "visual_idea": "Drizzle olive oil on baked sweet potato — 'this unlocks the nutrients'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Ginger",
+            "key_fact": "Contains gingerol — proven to reduce nausea, inflammation, and muscle pain",
+            "nutrition_tip": "Fresh ginger is more potent than dried — grate it to release more gingerol",
+            "visual_idea": "Grate fresh ginger into tea — show the juice releasing",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Salmon",
+            "key_fact": "Wild-caught salmon has 3x more omega-3s than farmed, with fewer contaminants",
+            "nutrition_tip": "Cook skin-side down first — the skin locks in omega-3 oils",
+            "visual_idea": "Show the color difference between wild-caught (deep red) and farmed (pale pink)",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Lemon",
+            "key_fact": "High in vitamin C and citric acid — boosts iron absorption from plant foods",
+            "nutrition_tip": "Squeeze lemon on spinach/beans to increase iron absorption by up to 6x",
+            "visual_idea": "Squeeze lemon on a spinach salad — 'this simple trick changes everything'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Cilantro",
+            "key_fact": "Contains compounds that help the body detoxify heavy metals like mercury and lead",
+            "nutrition_tip": "Add raw to finished dishes — heat destroys the beneficial volatile oils",
+            "visual_idea": "Sprinkle fresh cilantro on a finished taco — 'this is your body's detox helper'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Chia Seeds",
+            "key_fact": "Absorb 12x their weight in water — great for hydration and satiety",
+            "nutrition_tip": "Soak for 15+ minutes to form a gel — makes nutrients more bioavailable",
+            "visual_idea": "Time-lapse of chia seeds expanding in water — satisfying visual",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Olive Oil (Extra Virgin)",
+            "key_fact": "Contains oleocanthal — a natural anti-inflammatory with effects similar to ibuprofen",
+            "nutrition_tip": "Use for finishing/dressings — high heat degrades beneficial polyphenols",
+            "visual_idea": "Drizzle EVOO on finished dish — 'this is nature's ibuprofen'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Eggs",
+            "key_fact": "One of the most nutrient-dense foods — contain all 9 essential amino acids",
+            "nutrition_tip": "Keep the yolk runny when possible — high heat oxidizes the cholesterol",
+            "visual_idea": "Soft-boil an egg, cut open to show perfect runny yolk — 'this is how to eat eggs'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Cinnamon (Ceylon)",
+            "key_fact": "Can help regulate blood sugar levels and improve insulin sensitivity",
+            "nutrition_tip": "Use Ceylon cinnamon (not Cassia) — Cassia contains coumarin which can harm the liver in large doses",
+            "visual_idea": "Show the two types side by side — 'most of what you buy is the wrong one'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Bone Broth",
+            "key_fact": "Rich in collagen, glycine, and minerals that support gut lining repair",
+            "nutrition_tip": "Simmer for 12-24 hours to extract maximum collagen — add vinegar to pull more minerals from bones",
+            "visual_idea": "Show the jiggly collagen-rich broth after refrigeration — 'this means it's packed with collagen'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Jalapeño",
+            "key_fact": "Capsaicin boosts metabolism by up to 8% and triggers endorphin release",
+            "nutrition_tip": "The white ribs (not seeds) hold most of the capsaicin — remove for milder, keep for max benefit",
+            "visual_idea": "Cut open and point to the ribs — 'this is where the magic really is'",
+        },
+        {
+            "type": "deep-dive",
+            "ingredient": "Fermented Foods (Kimchi, Sauerkraut)",
+            "key_fact": "Contain live probiotics that support gut microbiome diversity",
+            "nutrition_tip": "Buy refrigerated versions (not shelf-stable) — pasteurization kills live cultures",
+            "visual_idea": "Show shelf-stable vs. refrigerated sauerkraut — 'only one of these is actually alive'",
+        },
+    ]
