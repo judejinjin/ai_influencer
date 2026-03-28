@@ -60,6 +60,7 @@ def call_llm(
     provider: str = None,
     temperature: float = None,
     response_format: dict = None,
+    max_tokens: int = None,
 ) -> str:
     """
     Send a prompt to the LLM and return the response text.
@@ -71,12 +72,14 @@ def call_llm(
         provider: Override provider ("gemini", "openai", "claude", "openrouter", "grok").
         temperature: Override temperature.
         response_format: JSON mode (OpenAI-compatible providers only).
+        max_tokens: Override max output tokens (default: LLM_MAX_TOKENS).
 
     Returns:
         Response text from the LLM.
     """
     provider = provider or DEFAULT_PROVIDERS.get(task, "gemini")
     temp = temperature or LLM_TEMPERATURE
+    mtokens = max_tokens or LLM_MAX_TOKENS
 
     # Build fallback chain: primary → other providers → openrouter (last resort)
     fallback_order = ["gemini", "openai", "grok", "openrouter"]
@@ -99,12 +102,12 @@ def call_llm(
 
     def _try_provider(prov):
         if prov == "claude":
-            return _call_claude(system_prompt, user_prompt, temp)
+            return _call_claude(system_prompt, user_prompt, temp, mtokens)
         elif prov == "gemini":
-            return _call_gemini(system_prompt, user_prompt, temp)
+            return _call_gemini(system_prompt, user_prompt, temp, mtokens)
         else:
             return _call_openai_compatible(
-                prov, system_prompt, user_prompt, temp, response_format
+                prov, system_prompt, user_prompt, temp, response_format, mtokens
             )
 
     # Try primary provider first (unless circuit-broken)
@@ -135,7 +138,7 @@ def call_llm(
 
 
 # ── Provider-specific call implementations ────────────────────
-def _call_gemini(system_prompt: str, user_prompt: str, temperature: float) -> str:
+def _call_gemini(system_prompt: str, user_prompt: str, temperature: float, max_tokens: int = None) -> str:
     """Call Google Gemini via the google-genai SDK."""
     client = _get_gemini_client()
     model = PROVIDERS["gemini"]["models"]["text"]
@@ -145,19 +148,19 @@ def _call_gemini(system_prompt: str, user_prompt: str, temperature: float) -> st
         config=genai.types.GenerateContentConfig(
             system_instruction=system_prompt,
             temperature=temperature,
-            max_output_tokens=LLM_MAX_TOKENS,
+            max_output_tokens=max_tokens or LLM_MAX_TOKENS,
         ),
     )
     return response.text
 
 
-def _call_claude(system_prompt: str, user_prompt: str, temperature: float) -> str:
+def _call_claude(system_prompt: str, user_prompt: str, temperature: float, max_tokens: int = None) -> str:
     """Call Anthropic Claude via the native SDK."""
     client = _get_anthropic_client()
     model = PROVIDERS["claude"]["models"]["text"]
     response = client.messages.create(
         model=model,
-        max_tokens=LLM_MAX_TOKENS,
+        max_tokens=max_tokens or LLM_MAX_TOKENS,
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
         temperature=temperature,
@@ -167,7 +170,7 @@ def _call_claude(system_prompt: str, user_prompt: str, temperature: float) -> st
 
 def _call_openai_compatible(
     provider: str, system_prompt: str, user_prompt: str,
-    temperature: float, response_format: dict = None,
+    temperature: float, response_format: dict = None, max_tokens: int = None,
 ) -> str:
     """Call any OpenAI-compatible API (OpenAI, OpenRouter, Grok)."""
     client = _get_openai_compatible_client(provider)
@@ -179,7 +182,7 @@ def _call_openai_compatible(
             {"role": "user", "content": user_prompt},
         ],
         "temperature": temperature or LLM_TEMPERATURE,
-        "max_tokens": LLM_MAX_TOKENS,
+        "max_tokens": max_tokens or LLM_MAX_TOKENS,
     }
     if response_format:
         kwargs["response_format"] = response_format

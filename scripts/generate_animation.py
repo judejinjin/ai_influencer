@@ -62,17 +62,21 @@ def _get_screenplay_dir(lang: str) -> Path:
     help="Re-generate even if animation already exists",
 )
 @click.option(
-    "--voice", default="nova",
-    type=click.Choice(["nova", "alloy", "echo", "fable", "onyx", "shimmer"]),
-    help="TTS voice for voiceover (default: nova = warm female). "
-         "Used with --add-voice or during animation generation.",
+    "--voice", default="auto",
+    help="Edge TTS voice (default: auto = en-US-JennyNeural / es-MX-DaliaNeural). "
+         "Use 'auto' for language-based selection, or a specific Edge TTS voice name.",
 )
 @click.option(
     "--add-voice", "add_voice", is_flag=True, default=False,
     help="Overlay TTS on EXISTING animations (no image re-generation). "
          "Requires --voice. Uses EN base animations + screenplays for --lang.",
 )
-def main(screenplay, output, mode, process_all, lang, limit, force, voice, add_voice):
+@click.option(
+    "--headshot", default=None, type=click.Path(exists=True),
+    help="Path to a headshot image (e.g. data/wm_with_glasses.jpg). "
+         "When provided, your face appears in every storyboard slide.",
+)
+def main(screenplay, output, mode, process_all, lang, limit, force, voice, add_voice, headshot):
     """Generate shooting guide animations from screenplays."""
 
     if not screenplay and not process_all and not add_voice:
@@ -161,31 +165,136 @@ def main(screenplay, output, mode, process_all, lang, limit, force, voice, add_v
             output_name=out_name,
             mode=mode,
             voice=voice,
+            headshot=headshot,
         )
         click.echo(f"\n✅ Shooting guide saved to: {result_path}\n")
         return
 
     # ── Batch mode (--all) ─────────────────────────────────────
-    # When --lang both, generate EN fully (images + TTS + stitch) then
-    # reuse EN video for ES by overlaying ES TTS — avoids regenerating images.
+    # When --lang both, generate EN then immediately overlay ES for each
+    # screenplay — ensures complete EN+ES pairs even if the run is interrupted.
     do_both = lang == "both"
-    primary_lang = "en"  # always generate images for EN
 
-    # ── Pass 1: generate primary language (EN) fully ───────────
-    if do_both or lang == "en":
-        _batch_generate(primary_lang, mode, voice, limit, force)
+    if do_both:
+        _batch_generate_both(mode, voice, limit, force, headshot)
+    elif lang == "en":
+        _batch_generate("en", mode, voice, limit, force, headshot)
+    elif lang == "es":
+        _batch_generate("es", mode, voice, limit, force, headshot)
 
-    # ── Pass 2: overlay second language TTS on EN base videos ──
-    if do_both or lang == "es":
-        if do_both:
-            # Reuse EN animations as base, overlay ES voiceover only
-            _batch_voice_overlay("es", voice, limit, force)
+
+def _batch_generate_both(mode, voice, limit, force, headshot=None):
+    """Generate silent base video, then overlay EN and ES voices separately."""
+    en_dir = _get_screenplay_dir("en")
+    es_dir = _get_screenplay_dir("es")
+    screenplays_list = sorted(en_dir.glob("*.md"))
+    if not screenplays_list:
+        click.echo(f"\nNo screenplays found in {en_dir}")
+        return
+
+    if not force:
+        # Skip only when BOTH en and es already exist
+        pending = [sp for sp in screenplays_list
+                   if not _already_generated(sp, "en") or not _already_generated(sp, "es")]
+    else:
+        pending = list(screenplays_list)
+
+    skipped = len(screenplays_list) - len(pending)
+    batch = pending[:limit] if limit > 0 else pending
+
+    click.echo(f"\n🎬 BATCH ANIMATION — EN+ES (mode: {mode}"
+               + (f", voice: {voice}" if voice else "") + ")")
+    click.echo(f"   Total screenplays: {len(screenplays_list)}")
+    click.echo(f"   Already complete (EN+ES): {skipped} (skipped)")
+    click.echo(f"   To process: {len(batch)}"
+               + (f" (limited to {limit})" if limit > 0 else ""))
+    click.echo()
+
+    en_generated = 0
+    es_generated = 0
+    failed = 0
+
+    for i, sp in enumerate(batch, 1):
+        stem = sp.stem
+        click.echo(f"  [{i}/{len(batch)}] {stem}")
+
+        en_path = ANIMATIONS_DIR / f"{stem}_shooting_guide_en.mp4"
+        es_screenplay = es_dir / f"{stem}.md"
+        es_path = ANIMATIONS_DIR / f"{stem}_shooting_guide_es.mp4"
+        base_path = ANIMATIONS_DIR / f"_silent_base_{stem}.mp4"
+
+        en_exists = en_path.exists() and not force
+        es_exists = es_path.exists() and not force
+
+        if en_exists and es_exists:
+            click.echo(f"    🇺🇸 EN: ⏭️  already exists")
+            click.echo(f"    🇪🇸 ES: ⏭️  already exists")
+            continue
+
+        # ── Generate silent base video (no voice) ────────────
+        if not base_path.exists() or force:
+            try:
+                out_name = f"_silent_base_{stem}"
+                generate_shooting_guide(
+                    screenplay_path=str(sp),
+                    output_name=out_name,
+                    mode=mode,
+                    voice=None,       # silent — no TTS
+                    headshot=headshot,
+                )
+                click.echo(f"    🎞️  Silent base: ✅")
+            except Exception as e:
+                click.echo(f"    🎞️  Silent base: ❌ Failed: {e}")
+                failed += 1
+                continue
+
+        # ── EN: overlay English voice on silent base ──────────
+        if en_exists:
+            click.echo(f"    🇺🇸 EN: ⏭️  already exists")
         else:
-            # Standalone ES: generate from scratch
-            _batch_generate("es", mode, voice, limit, force)
+            try:
+                add_voice_to_video(
+                    video_path=str(base_path),
+                    screenplay_path=str(sp),
+                    voice=voice,
+                    output_path=str(en_path),
+                )
+                click.echo(f"    🇺🇸 EN: ✅ {en_path}")
+                en_generated += 1
+            except Exception as e:
+                click.echo(f"    🇺🇸 EN: ❌ Failed: {e}")
+                failed += 1
+
+        # ── ES: overlay Spanish voice on silent base ──────────
+        if not es_screenplay.exists():
+            click.echo(f"    🇪🇸 ES: ⚠️  no ES screenplay")
+        elif es_exists:
+            click.echo(f"    🇪🇸 ES: ⏭️  already exists")
+        else:
+            try:
+                add_voice_to_video(
+                    video_path=str(base_path),
+                    screenplay_path=str(es_screenplay),
+                    voice=voice,
+                    output_path=str(es_path),
+                )
+                click.echo(f"    🇪🇸 ES: ✅ {es_path}")
+                es_generated += 1
+            except Exception as e:
+                click.echo(f"    🇪🇸 ES: ❌ Failed: {e}")
+                failed += 1
+
+        # ── Clean up silent base ──────────────────────────────
+        if base_path.exists():
+            base_path.unlink()
+
+    click.echo(f"\n{'='*50}")
+    click.echo(f"📊 SUMMARY: {en_generated} EN generated, {es_generated} ES voiced, "
+               f"{failed} failed, {skipped} skipped")
+    click.echo(f"{'='*50}")
 
 
-def _batch_generate(current_lang, mode, voice, limit, force):
+def _batch_generate(current_lang, mode, voice, limit, force, headshot=None):
     """Full generation: images + TTS + stitch for a single language."""
     sp_dir = _get_screenplay_dir(current_lang)
     screenplays_list = sorted(sp_dir.glob("*.md"))
@@ -221,6 +330,7 @@ def _batch_generate(current_lang, mode, voice, limit, force):
                 output_name=out_name,
                 mode=mode,
                 voice=voice,
+                headshot=headshot,
             )
             click.echo(f"    ✅ {result_path}")
             generated += 1

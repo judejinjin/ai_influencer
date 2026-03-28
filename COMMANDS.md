@@ -82,6 +82,7 @@ Generate shooting-guide animations (storyboard images stitched into MP4) from sc
 | `--limit` | int | 0 | Max screenplays to generate (0 = unlimited) |
 | `--force` | flag | False | Re-generate even if animation already exists |
 | `--voice` | `nova\|alloy\|echo\|fable\|onyx\|shimmer` | None | Add TTS voiceover (omit for silent) |
+| `--headshot` | path | None | Path to a headshot image for face-consistent storyboard frames (uses Nano Banana) |
 | `--add-voice` | flag | False | Overlay TTS on EXISTING animations (no image re-generation) |
 
 ### Animation Modes
@@ -124,6 +125,14 @@ python scripts/generate_animation.py --add-voice --voice nova --lang es    # Spa
 python scripts/generate_animation.py --add-voice --voice nova --lang both  # Both at once
 ```
 
+### Generate All EN+ES Animations with Headshot (recommended)
+
+```bash
+python scripts/generate_animation.py --all --lang both --headshot data/wm_with_glasses_512.jpg 2>&1 | tee data/generated/animation_run.log
+```
+
+Generates EN animation (with face-consistent storyboard frames), then immediately overlays ES voice on each — so interrupted runs still have matched EN+ES pairs. Skips screenplays that already have both `_en.mp4` and `_es.mp4`.
+
 ---
 
 ## Typical Workflows
@@ -134,6 +143,7 @@ python scripts/generate_animation.py --add-voice --voice nova --lang both  # Bot
 | Ideas only, skip screenplays | `generate_repertoire.py --exhaust --no-screenplays` |
 | React to breaking news | `generate_from_trending.py --count 3 --days 3` |
 | Redo everything from scratch | `generate_repertoire.py --reset-coverage --exhaust` |
+| Generate all animations (with headshot) | `generate_animation.py --all --lang both --headshot data/wm_with_glasses_512.jpg` |
 | Generate all animations | `generate_animation.py --all --mode storyboard` |
 | Test animation pipeline | `generate_animation.py --all --mode storyboard --limit 1` |
 | Add voice to existing videos | `generate_animation.py --add-voice --voice nova --lang both` |

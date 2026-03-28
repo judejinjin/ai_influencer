@@ -20,10 +20,10 @@ PROVIDERS = {
     "gemini": {
         "key": GEMINI_KEY,
         "models": {
-            "text": "gemini-2.0-flash",
-            "text_fast": "gemini-2.0-flash",
-            "video": "veo-3",
-            "image": "imagen-3",
+            "text": "gemini-2.5-flash",
+            "text_fast": "gemini-2.5-flash",
+            "video": "veo-3.0-generate-001",
+            "image": "imagen-4.0-fast-generate-001",
         },
     },
     "openai": {

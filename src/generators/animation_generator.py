@@ -15,9 +15,38 @@ from pathlib import Path
 from google import genai
 from google.genai import types as genai_types
 
+from PIL import Image as PILImage
+
 from src.llm_client import call_llm, _strip_markdown_json
 from src.persona import SYSTEM_PROMPT_ANIMATION_GUIDE
 from src.config import ANIMATIONS_DIR, PROVIDERS, GEMINI_KEY, OPENAI_KEY
+
+# Maximum dimension for headshot reference image (keeps cost/payload small)
+_HEADSHOT_MAX_DIM = 512
+_headshot_cache: dict[str, bytes] = {}
+
+
+def _load_and_optimize_headshot(headshot_path: str) -> bytes:
+    """Load a headshot image, resize to <= _HEADSHOT_MAX_DIM if needed, return JPEG bytes."""
+    if headshot_path in _headshot_cache:
+        return _headshot_cache[headshot_path]
+    img = PILImage.open(headshot_path)
+    already_small = max(img.size) <= _HEADSHOT_MAX_DIM
+    already_jpeg = headshot_path.lower().endswith((".jpg", ".jpeg"))
+    if already_small and already_jpeg:
+        data = Path(headshot_path).read_bytes()
+        print(f"   📸 Headshot already optimal: {len(data)//1024}KB ({img.size[0]}x{img.size[1]})")
+    else:
+        img.thumbnail((_HEADSHOT_MAX_DIM, _HEADSHOT_MAX_DIM))
+        if img.mode == "RGBA":
+            img = img.convert("RGB")
+        from io import BytesIO
+        buf = BytesIO()
+        img.save(buf, format="JPEG", quality=85)
+        data = buf.getvalue()
+        print(f"   📸 Headshot loaded & optimized: {len(data)//1024}KB ({img.size[0]}x{img.size[1]})")
+    _headshot_cache[headshot_path] = data
+    return data
 
 
 def _sanitize_image_prompt(prompt: str) -> str:
@@ -69,10 +98,30 @@ If no voiceover exists for a scene, use an empty string.
         system_prompt=SYSTEM_PROMPT_ANIMATION_GUIDE,
         user_prompt=user_prompt,
         task="idea_generation",
+        max_tokens=16000,
     )
 
     cleaned = _strip_markdown_json(response)
-    data = json.loads(cleaned)
+    try:
+        data = json.loads(cleaned)
+    except json.JSONDecodeError:
+        # Fix invalid escape sequences from LLM output (e.g. \S, \c)
+        import re
+        fixed = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', cleaned)
+        try:
+            data = json.loads(fixed)
+        except json.JSONDecodeError:
+            # Last resort: ask the LLM to fix the broken JSON
+            print("      ⚠️  Malformed JSON from LLM, requesting repair...")
+            repair_response = call_llm(
+                system_prompt="You are a JSON repair tool. Fix the broken JSON and return ONLY valid JSON. No explanation.",
+                user_prompt=f"Fix this broken JSON:\n{cleaned[:12000]}",
+                task="idea_generation",
+                max_tokens=16000,
+            )
+            repaired = _strip_markdown_json(repair_response)
+            repaired = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', repaired)
+            data = json.loads(repaired)
     if isinstance(data, dict) and "scenes" in data:
         return data["scenes"]
     if isinstance(data, list):
@@ -128,11 +177,20 @@ def _generate_via_veo(scenes: list[dict], output_dir: Path) -> list[Path]:
 
 # ── Step 2B: Gemini Imagen — Storyboard Frame Images ──────────────
 
-def _generate_via_imagen(scenes: list[dict], output_dir: Path) -> list[Path]:
-    """Generate one storyboard image per scene using Gemini Imagen."""
+def _generate_via_imagen(scenes: list[dict], output_dir: Path, headshot: str = None) -> list[Path]:
+    """Generate one storyboard image per scene using Gemini Imagen.
+
+    If *headshot* is a valid image path, uses gemini-2.5-flash-image with the
+    headshot as reference so the host's face appears in every frame.
+    """
     client = genai.Client(api_key=GEMINI_KEY)
     image_model = PROVIDERS["gemini"]["models"]["image"]
     frames = []
+
+    # Prepare headshot bytes once if provided
+    headshot_bytes = None
+    if headshot and Path(headshot).is_file():
+        headshot_bytes = _load_and_optimize_headshot(headshot)
 
     for i, scene in enumerate(scenes):
         prompt = scene.get("imagen_prompt", "")
@@ -145,19 +203,45 @@ def _generate_via_imagen(scenes: list[dict], output_dir: Path) -> list[Path]:
                 f"Annotated storyboard style with shot labels."
             )
 
-        response = client.models.generate_images(
-            model=image_model,
-            prompt=prompt,
-            config=genai_types.GenerateImagesConfig(
-                number_of_images=1,
-            ),
-        )
-
         frame_path = output_dir / f"frame_{i+1:02d}_{scene.get('section', 'SCENE')}.png"
-        for img in response.generated_images:
-            img.image.save(str(frame_path))
-            frames.append(frame_path)
-            break
+
+        if headshot_bytes:
+            # Use gemini-2.5-flash-image with headshot reference for face consistency
+            try:
+                response = client.models.generate_content(
+                    model="gemini-2.5-flash-image",
+                    contents=[
+                        genai_types.Part.from_bytes(data=headshot_bytes, mime_type="image/jpeg"),
+                        f"Generate a storyboard illustration of this exact person "
+                        f"(keep their face and appearance consistent). {prompt}",
+                    ],
+                    config=genai_types.GenerateContentConfig(
+                        response_modalities=["IMAGE", "TEXT"],
+                    ),
+                )
+                saved = False
+                for part in response.candidates[0].content.parts:
+                    if part.inline_data:
+                        frame_path.write_bytes(part.inline_data.data)
+                        frames.append(frame_path)
+                        saved = True
+                        break
+                if not saved:
+                    print(f"      ⚠️  Scene {i+1} returned no image (safety filter?), skipping")
+            except Exception as e:
+                print(f"      ⚠️  Scene {i+1} headshot gen failed: {e}")
+        else:
+            response = client.models.generate_images(
+                model=image_model,
+                prompt=prompt,
+                config=genai_types.GenerateImagesConfig(
+                    number_of_images=1,
+                ),
+            )
+            for img in response.generated_images:
+                img.image.save(str(frame_path))
+                frames.append(frame_path)
+                break
 
     return frames
 
@@ -204,21 +288,44 @@ def _generate_via_dalle(scenes: list[dict], output_dir: Path) -> list[Path]:
 
 # ── Step 3: Generate TTS voiceover audio per scene ────────────────
 
-def _generate_tts(scenes: list[dict], output_dir: Path, voice: str = "nova") -> list[Path | None]:
-    """Generate TTS audio for each scene using OpenAI TTS.
+# Edge TTS voice mapping
+EDGE_TTS_VOICES = {
+    "en": "en-US-AriaNeural",        # Young, confident female US English
+    "es": "es-MX-DaliaNeural",       # Female Mexican Spanish
+}
+
+# Pitch / rate tweaks for a younger, higher-pitched delivery
+EDGE_TTS_PITCH = "+10Hz"
+EDGE_TTS_RATE  = "+0%"
+
+
+def _generate_tts(scenes: list[dict], output_dir: Path, voice: str = "auto", lang: str = "en") -> list[Path | None]:
+    """Generate TTS audio for each scene using Edge TTS (free).
 
     Args:
         scenes: Scene list with 'voiceover' text.
         output_dir: Directory to write .mp3 files.
-        voice: OpenAI TTS voice (alloy, echo, fable, onyx, nova, shimmer).
-               'nova' is a warm female voice that fits the Latina creator persona.
+        voice: Edge TTS voice name, or 'auto' to select based on lang.
+        lang: Language code ('en' or 'es') — used when voice='auto'.
 
     Returns:
         List of audio file paths (None for scenes with no voiceover).
     """
-    from openai import OpenAI
-    client = OpenAI(api_key=OPENAI_KEY)
+    import edge_tts
+    import asyncio
+
+    # Resolve voice
+    if voice == "auto":
+        tts_voice = EDGE_TTS_VOICES.get(lang, EDGE_TTS_VOICES["en"])
+    else:
+        tts_voice = voice
+
     audio_paths: list[Path | None] = []
+
+    async def _generate_one(text: str, audio_path: Path) -> bool:
+        communicate = edge_tts.Communicate(text, tts_voice, pitch=EDGE_TTS_PITCH, rate=EDGE_TTS_RATE)
+        await communicate.save(str(audio_path))
+        return True
 
     for i, scene in enumerate(scenes):
         text = scene.get("voiceover", "").strip()
@@ -228,12 +335,7 @@ def _generate_tts(scenes: list[dict], output_dir: Path, voice: str = "nova") -> 
 
         audio_path = output_dir / f"voice_{i+1:02d}_{scene.get('section', 'SCENE')}.mp3"
         try:
-            response = client.audio.speech.create(
-                model="tts-1",
-                voice=voice,
-                input=text,
-            )
-            response.stream_to_file(str(audio_path))
+            asyncio.run(_generate_one(text, audio_path))
             audio_paths.append(audio_path)
         except Exception as e:
             print(f"      \u26a0\ufe0f  TTS scene {i+1} skipped: {e}")
@@ -270,28 +372,7 @@ def _stitch_frames_to_video(
             duration = max(duration, audio_clip.duration + 0.5)
 
         img_clip = ImageClip(str(frame), duration=duration)
-
-        label = (
-            f"[{scene.get('time_code', '')}] {scene.get('section', '')}\n"
-            f"Camera: {scene.get('camera', '')}\n"
-            f"Action: {scene.get('movement', 'Hold')}"
-        )
-        txt_clip = (
-            TextClip(
-                font="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-                text=label,
-                font_size=20,
-                color="yellow",
-                bg_color="black",
-                method="caption",
-                size=(400, None),
-                duration=duration,
-            )
-            .with_position(("left", "bottom"))
-        )
-
-        composite = CompositeVideoClip([img_clip, txt_clip])
-        clips.append(composite)
+        clips.append(img_clip)
 
         if audio_clip:
             scene_audios.append(audio_clip.with_start(time_cursor))
@@ -428,7 +509,7 @@ def _generate_via_manim(scenes: list[dict], output_path: Path) -> str:
 def add_voice_to_video(
     video_path: str,
     screenplay_path: str,
-    voice: str = "nova",
+    voice: str = "auto",
     output_path: str = None,
 ) -> str:
     """Overlay TTS voiceover on an existing (silent) animation.
@@ -438,7 +519,7 @@ def add_voice_to_video(
     Args:
         video_path:      Path to the base .mp4 (e.g. from storyboard mode).
         screenplay_path: Screenplay to extract voiceover text from.
-        voice:           OpenAI TTS voice name.
+        voice:           Edge TTS voice name, or 'auto' (select by language).
         output_path:     Where to write the voiced video (default: overwrite).
 
     Returns:
@@ -453,6 +534,9 @@ def add_voice_to_video(
         raise FileNotFoundError(f"Video not found: {video_path}")
 
     output_path = Path(output_path) if output_path else video_path
+
+    # Detect language from screenplay path
+    lang = "es" if "/es/" in str(screenplay_path) else "en"
 
     # 1. Parse screenplay to get scene voiceover text + timings
     print("📋 Parsing screenplay for voiceover text...")
@@ -470,12 +554,15 @@ def add_voice_to_video(
 
     try:
         # 2. Generate TTS
-        print(f"🗣️  Generating voiceover (voice: {voice})...")
-        audio_paths = _generate_tts(scenes_data, temp_dir, voice=voice)
+        resolved = EDGE_TTS_VOICES.get(lang, voice) if voice == "auto" else voice
+        print(f"🗣️  Generating voiceover (voice: {resolved})...")
+        audio_paths = _generate_tts(scenes_data, temp_dir, voice=voice, lang=lang)
         generated_count = sum(1 for a in audio_paths if a is not None)
         print(f"   Generated {generated_count}/{len(scenes_data)} audio clips")
 
         # 3. Position each TTS clip at its scene start time
+        #    Use the longer of screenplay duration or audio length (same
+        #    logic as _stitch_frames_to_video) so clips never overlap.
         video = VideoFileClip(str(video_path))
         scene_audios = []
         time_cursor = 0.0
@@ -484,11 +571,20 @@ def add_voice_to_video(
             audio_file = audio_paths[idx] if idx < len(audio_paths) else None
             if audio_file and audio_file.exists():
                 clip = AudioFileClip(str(audio_file))
+                # Ensure this scene is long enough for its audio
+                duration = max(duration, clip.duration + 0.5)
                 scene_audios.append(clip.with_start(time_cursor))
             time_cursor += duration
 
         if scene_audios:
             composite_audio = CompositeAudioClip(scene_audios)
+            # Strip any existing audio before attaching new voice
+            video = video.without_audio()
+            # Extend video if audio needs more time than the silent base
+            if time_cursor > video.duration:
+                from moviepy import vfx
+                extra = time_cursor - video.duration
+                video = video.with_effects([vfx.Freeze(t="end", freeze_duration=extra)])
             video = video.with_audio(composite_audio)
 
         video.write_videofile(str(output_path), fps=24)
@@ -505,7 +601,8 @@ def generate_shooting_guide(
     screenplay_path: str,
     output_name: str = None,
     mode: str = "auto",
-    voice: str = None,
+    voice: str = "auto",
+    headshot: str = None,
 ) -> str:
     """
     Parse a screenplay → generate shooting guide animation.
@@ -514,8 +611,8 @@ def generate_shooting_guide(
         screenplay_path: Path to the screenplay .md file.
         output_name: Optional output filename (without extension).
         mode: "auto" | "veo" | "storyboard" | "manim"
-        voice: OpenAI TTS voice name (nova, alloy, echo, fable, onyx, shimmer).
-               None = no voiceover.
+        voice: Edge TTS voice name, 'auto' (select by language), or None (no TTS).
+        headshot: Optional path to a headshot image for face consistency.
 
     Returns:
         Path to the generated MP4 file.
@@ -535,13 +632,17 @@ def generate_shooting_guide(
     temp_dir = ANIMATIONS_DIR / f"_temp_{output_name}"
     temp_dir.mkdir(parents=True, exist_ok=True)
 
+    # Detect language from screenplay path
+    lang = "es" if "/es/" in str(screenplay_path) else "en"
+
     # Generate TTS audio if voice is requested
     audio_paths = None
     if voice:
         has_voiceover = any(s.get("voiceover", "").strip() for s in scenes_data)
         if has_voiceover:
-            print(f"🗣️  Generating voiceover (voice: {voice})...")
-            audio_paths = _generate_tts(scenes_data, temp_dir, voice=voice)
+            resolved = EDGE_TTS_VOICES.get(lang, voice) if voice == "auto" else voice
+            print(f"🗣️  Generating voiceover (voice: {resolved})...")
+            audio_paths = _generate_tts(scenes_data, temp_dir, voice=voice, lang=lang)
             generated_count = sum(1 for a in audio_paths if a is not None)
             print(f"   Generated {generated_count}/{len(scenes_data)} audio clips")
         else:
@@ -549,11 +650,11 @@ def generate_shooting_guide(
 
     try:
         if mode == "auto":
-            return _auto_generate(scenes_data, temp_dir, output_path, audio_paths)
+            return _auto_generate(scenes_data, temp_dir, output_path, audio_paths, headshot=headshot)
         elif mode == "veo":
             return _veo_generate(scenes_data, temp_dir, output_path)
         elif mode == "storyboard":
-            return _storyboard_generate(scenes_data, temp_dir, output_path, audio_paths)
+            return _storyboard_generate(scenes_data, temp_dir, output_path, audio_paths, headshot=headshot)
         elif mode == "manim":
             return _generate_via_manim(scenes_data, output_path)
         else:
@@ -564,7 +665,7 @@ def generate_shooting_guide(
             shutil.rmtree(temp_dir, ignore_errors=True)
 
 
-def _auto_generate(scenes, temp_dir, output_path, audio_paths=None) -> str:
+def _auto_generate(scenes, temp_dir, output_path, audio_paths=None, headshot=None) -> str:
     """Try Veo → Imagen → DALL-E → Manim in order."""
     # Tier 1: Try Gemini Veo
     try:
@@ -576,7 +677,7 @@ def _auto_generate(scenes, temp_dir, output_path, audio_paths=None) -> str:
     # Tier 2: Try Imagen storyboard
     try:
         print("🖼️  Trying Gemini Imagen storyboard frames...")
-        frames = _generate_via_imagen(scenes, temp_dir)
+        frames = _generate_via_imagen(scenes, temp_dir, headshot=headshot)
         _stitch_frames_to_video(frames, scenes, output_path, audio_paths)
         return str(output_path)
     except Exception as e:
@@ -606,10 +707,10 @@ def _veo_generate(scenes, temp_dir, output_path) -> str:
     return str(output_path)
 
 
-def _storyboard_generate(scenes, temp_dir, output_path, audio_paths=None) -> str:
+def _storyboard_generate(scenes, temp_dir, output_path, audio_paths=None, headshot=None) -> str:
     """Generate via Imagen or DALL-E storyboard frames."""
     try:
-        frames = _generate_via_imagen(scenes, temp_dir)
+        frames = _generate_via_imagen(scenes, temp_dir, headshot=headshot)
     except Exception:
         frames = _generate_via_dalle(scenes, temp_dir)
     if not frames:
